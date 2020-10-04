@@ -55,10 +55,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(195, 60);
+            this.textBox1.Location = new System.Drawing.Point(88, 51);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(412, 54);
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(519, 63);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
@@ -79,6 +80,7 @@
             this.ButC.TabIndex = 2;
             this.ButC.Text = "C";
             this.ButC.UseVisualStyleBackColor = true;
+            this.ButC.Click += new System.EventHandler(this.ButC_Click);
             // 
             // ButInvert
             // 
@@ -122,7 +124,7 @@
             // 
             // ButMc
             // 
-            this.ButMc.Location = new System.Drawing.Point(168, 183);
+            this.ButMc.Location = new System.Drawing.Point(88, 183);
             this.ButMc.Name = "ButMc";
             this.ButMc.Size = new System.Drawing.Size(80, 48);
             this.ButMc.TabIndex = 7;
@@ -132,7 +134,7 @@
             // 
             // ButMr
             // 
-            this.ButMr.Location = new System.Drawing.Point(168, 237);
+            this.ButMr.Location = new System.Drawing.Point(88, 237);
             this.ButMr.Name = "ButMr";
             this.ButMr.Size = new System.Drawing.Size(80, 48);
             this.ButMr.TabIndex = 8;
@@ -142,7 +144,7 @@
             // 
             // ButMs
             // 
-            this.ButMs.Location = new System.Drawing.Point(168, 291);
+            this.ButMs.Location = new System.Drawing.Point(88, 291);
             this.ButMs.Name = "ButMs";
             this.ButMs.Size = new System.Drawing.Size(79, 47);
             this.ButMs.TabIndex = 9;
@@ -152,9 +154,9 @@
             // 
             // ButMPlus
             // 
-            this.ButMPlus.Location = new System.Drawing.Point(168, 344);
+            this.ButMPlus.Location = new System.Drawing.Point(88, 344);
             this.ButMPlus.Name = "ButMPlus";
-            this.ButMPlus.Size = new System.Drawing.Size(80, 47);
+            this.ButMPlus.Size = new System.Drawing.Size(79, 47);
             this.ButMPlus.TabIndex = 10;
             this.ButMPlus.Text = "M+";
             this.ButMPlus.UseVisualStyleBackColor = true;
@@ -285,7 +287,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(691, 445);
             this.Controls.Add(this.ButEqual);
             this.Controls.Add(this.ButPlus);
             this.Controls.Add(this.ButFrac);

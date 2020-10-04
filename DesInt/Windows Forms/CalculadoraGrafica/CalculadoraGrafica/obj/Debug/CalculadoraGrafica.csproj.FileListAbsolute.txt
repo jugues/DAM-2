@@ -1,0 +1,10 @@
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\CalculadoraGrafica\CalculadoraGrafica\bin\Debug\CalculadoraGrafica.exe.config
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\CalculadoraGrafica\CalculadoraGrafica\bin\Debug\CalculadoraGrafica.exe
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\CalculadoraGrafica\CalculadoraGrafica\bin\Debug\CalculadoraGrafica.pdb
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\CalculadoraGrafica\CalculadoraGrafica\obj\Debug\CalculadoraGrafica.csprojAssemblyReference.cache
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\CalculadoraGrafica\CalculadoraGrafica\obj\Debug\CalculadoraGrafica.Form1.resources
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\CalculadoraGrafica\CalculadoraGrafica\obj\Debug\CalculadoraGrafica.Properties.Resources.resources
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\CalculadoraGrafica\CalculadoraGrafica\obj\Debug\CalculadoraGrafica.csproj.GenerateResource.cache
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\CalculadoraGrafica\CalculadoraGrafica\obj\Debug\CalculadoraGrafica.csproj.CoreCompileInputs.cache
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\CalculadoraGrafica\CalculadoraGrafica\obj\Debug\CalculadoraGrafica.exe
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\CalculadoraGrafica\CalculadoraGrafica\obj\Debug\CalculadoraGrafica.pdb

@@ -20,7 +20,7 @@ namespace CalculadoraGrafica
         }
 
         //zona de variables 
-        double num1, num2, resul, memoria, fraccion;
+        double Num1, Num2, Resul, Memoria;
         string signo;
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
@@ -49,17 +49,33 @@ namespace CalculadoraGrafica
 
         private void Button20_Click(object sender, EventArgs e)//1 entre x
         {
-            num1 = double.Parse(textBox1.Text);
-            try
+            if(textBox1.Text != "")
             {
-                num2 = 1 / num1;
-                textBox1.Text = num2.ToString();
+                Num1 = double.Parse(textBox1.Text);
+                try
+                {
+                    Num2 = 1 / Num1;
+                    textBox1.Text = Num2.ToString();
+                }
+
+                catch (DivideByZeroException)
+
+                {
+                    Console.WriteLine("No puedes dividir uno entre cero.");
+                }
             }
 
-            catch(DivideByZeroException)
-
+            else
             {
-                Console.WriteLine("No puedes dividir uno entre cero.");
+                try
+                {
+                    Num2 = 1 / Num1;
+                    textBox1.Text = Num2.ToString();
+                }
+                catch(FormatException)
+                {
+                    Console.WriteLine("Debes introducir primero un número antes de pulsar el botón.");
+                }
             }
 
 
@@ -72,14 +88,14 @@ namespace CalculadoraGrafica
 
         private void Button7_Click(object sender, EventArgs e)//memory clear
         {
-            num1 = 0;
-            num2 = 0;
+            Num1 = 0;
+            Num2 = 0;
         }
 
         private void Button3_Click(object sender, EventArgs e)
         {
             signo = "/";
-            num1 = double.Parse(textBox1.Text);
+            Num1 = double.Parse(textBox1.Text);
             textBox1.Clear();
         }
 
@@ -101,13 +117,13 @@ namespace CalculadoraGrafica
         private void Button14_Click(object sender, EventArgs e)
         {
             signo = "*";
-            num1 = double.Parse(textBox1.Text);
+            Num1 = double.Parse(textBox1.Text);
             textBox1.Clear();
         }
 
         private void Button9_Click(object sender, EventArgs e)//memory storage
         {
-            memoria = double.Parse(textBox1.Text);
+            Memoria = double.Parse(textBox1.Text);
         }
 
         private void Button15_Click(object sender, EventArgs e)
@@ -123,20 +139,20 @@ namespace CalculadoraGrafica
         private void Button18_Click(object sender, EventArgs e)
         {
             signo = "-";
-            num1 = double.Parse(textBox1.Text);
+            Num1 = double.Parse(textBox1.Text);
             textBox1.Clear();
         }
 
         private void Button10_Click(object sender, EventArgs e)//m+
         {
-            if(num1>0)
+            if(Num1>0)
             {
-                resul = memoria + num1;
+                Resul = Memoria + Num1;
             }
 
             else
             {
-                resul = memoria + num2;
+                Resul = Memoria + Num2;
             }
         }
 
@@ -148,43 +164,43 @@ namespace CalculadoraGrafica
         private void ButC_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
-            num1 = 0;
-            num2 = 0;
+            Num1 = 0;
+            Num2 = 0;
         }
 
         private void Button21_Click(object sender, EventArgs e)
         {
             signo = "+";
-            num1 = double.Parse(textBox1.Text);
+            Num1 = double.Parse(textBox1.Text);
             textBox1.Clear();
         }
 
         private void Button22_Click(object sender, EventArgs e)
         {
-            num2 = double.Parse(textBox1.Text);
+            Num2 = double.Parse(textBox1.Text);
 
             switch (signo)
             {
                 case "+":
-                    resul = num1 + num2;
-                    textBox1.Text = resul.ToString();
+                    Resul = Num1 + Num2;
+                    textBox1.Text = Resul.ToString();
                     break;
 
                 case "-":
-                    resul = num1 - num2;
-                    textBox1.Text = resul.ToString();
+                    Resul = Num1 - Num2;
+                    textBox1.Text = Resul.ToString();
                     break;
 
                 case "*":
-                    resul = num1 * num2;
-                    textBox1.Text = resul.ToString();
+                    Resul = Num1 * Num2;
+                    textBox1.Text = Resul.ToString();
                     break;
 
                 case "/":
                     try
                     {
-                        resul = num1 / num2;
-                        textBox1.Text = resul.ToString();
+                        Resul = Num1 / Num2;
+                        textBox1.Text = Resul.ToString();
                     }
 
                     catch(DivideByZeroException)

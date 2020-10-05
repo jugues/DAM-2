@@ -1,4 +1,4 @@
-﻿//faltan los botones de la memoria y el de la raíz cuadrada
+﻿//no está del todo completo
 
 using System;
 using System.Collections.Generic;
@@ -20,7 +20,7 @@ namespace CalculadoraGrafica
         }
 
         //zona de variables 
-        double num1, num2, resul;
+        double num1, num2, resul, memoria, fraccion;
         string signo;
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
@@ -47,8 +47,21 @@ namespace CalculadoraGrafica
             textBox1.Text = textBox1.Text + 7;
         }
 
-        private void Button20_Click(object sender, EventArgs e)
+        private void Button20_Click(object sender, EventArgs e)//1 entre x
         {
+            num1 = double.Parse(textBox1.Text);
+            try
+            {
+                num2 = 1 / num1;
+                textBox1.Text = num2.ToString();
+            }
+
+            catch(DivideByZeroException)
+
+            {
+                Console.WriteLine("No puedes dividir uno entre cero.");
+            }
+
 
         }
 
@@ -57,9 +70,10 @@ namespace CalculadoraGrafica
             textBox1.Text = textBox1.Text + 8;
         }
 
-        private void Button7_Click(object sender, EventArgs e)
+        private void Button7_Click(object sender, EventArgs e)//memory clear
         {
-
+            num1 = 0;
+            num2 = 0;
         }
 
         private void Button3_Click(object sender, EventArgs e)
@@ -69,7 +83,7 @@ namespace CalculadoraGrafica
             textBox1.Clear();
         }
 
-        private void Button8_Click(object sender, EventArgs e)
+        private void Button8_Click(object sender, EventArgs e)//memory recall
         {
 
         }
@@ -91,9 +105,9 @@ namespace CalculadoraGrafica
             textBox1.Clear();
         }
 
-        private void Button9_Click(object sender, EventArgs e)
+        private void Button9_Click(object sender, EventArgs e)//memory storage
         {
-
+            memoria = double.Parse(textBox1.Text);
         }
 
         private void Button15_Click(object sender, EventArgs e)
@@ -113,9 +127,17 @@ namespace CalculadoraGrafica
             textBox1.Clear();
         }
 
-        private void Button10_Click(object sender, EventArgs e)
+        private void Button10_Click(object sender, EventArgs e)//m+
         {
+            if(num1>0)
+            {
+                resul = memoria + num1;
+            }
 
+            else
+            {
+                resul = memoria + num2;
+            }
         }
 
         private void Button19_Click(object sender, EventArgs e)

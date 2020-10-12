@@ -1,0 +1,10 @@
+C:\Users\Juli\source\repos\AppTrivial\AppTrivial\bin\Debug\AppTrivial.exe.config
+C:\Users\Juli\source\repos\AppTrivial\AppTrivial\bin\Debug\AppTrivial.exe
+C:\Users\Juli\source\repos\AppTrivial\AppTrivial\bin\Debug\AppTrivial.pdb
+C:\Users\Juli\source\repos\AppTrivial\AppTrivial\obj\Debug\AppTrivial.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\AppTrivial\AppTrivial\obj\Debug\AppTrivial.Form1.resources
+C:\Users\Juli\source\repos\AppTrivial\AppTrivial\obj\Debug\AppTrivial.Properties.Resources.resources
+C:\Users\Juli\source\repos\AppTrivial\AppTrivial\obj\Debug\AppTrivial.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\AppTrivial\AppTrivial\obj\Debug\AppTrivial.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\AppTrivial\AppTrivial\obj\Debug\AppTrivial.exe
+C:\Users\Juli\source\repos\AppTrivial\AppTrivial\obj\Debug\AppTrivial.pdb

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtRespuesta = new System.Windows.Forms.TextBox();
+            this.lblSuperior = new System.Windows.Forms.Label();
+            this.lblInferior = new System.Windows.Forms.Label();
+            this.txtCancionLibro = new System.Windows.Forms.TextBox();
             this.txtCorreccion = new System.Windows.Forms.TextBox();
             this.txtOpcion1 = new System.Windows.Forms.TextBox();
             this.txtOpcion2 = new System.Windows.Forms.TextBox();
@@ -44,8 +44,8 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nombreCapitalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nombrePaísesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nombreGruposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nombreLibrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.múltiplesOpcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.escribirRespuestaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,37 +53,38 @@
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // lblSuperior
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "País:";
+            this.lblSuperior.AutoSize = true;
+            this.lblSuperior.Location = new System.Drawing.Point(22, 35);
+            this.lblSuperior.Name = "lblSuperior";
+            this.lblSuperior.Size = new System.Drawing.Size(49, 13);
+            this.lblSuperior.TabIndex = 0;
+            this.lblSuperior.Text = "Canción:";
             // 
-            // label2
+            // lblInferior
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 142);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Capital:";
+            this.lblInferior.AutoSize = true;
+            this.lblInferior.Location = new System.Drawing.Point(22, 145);
+            this.lblInferior.Name = "lblInferior";
+            this.lblInferior.Size = new System.Drawing.Size(39, 13);
+            this.lblInferior.TabIndex = 1;
+            this.lblInferior.Text = "Grupo:";
             // 
-            // txtRespuesta
+            // txtCancionLibro
             // 
-            this.txtRespuesta.Location = new System.Drawing.Point(73, 64);
-            this.txtRespuesta.Multiline = true;
-            this.txtRespuesta.Name = "txtRespuesta";
-            this.txtRespuesta.Size = new System.Drawing.Size(259, 46);
-            this.txtRespuesta.TabIndex = 2;
+            this.txtCancionLibro.Location = new System.Drawing.Point(73, 64);
+            this.txtCancionLibro.Multiline = true;
+            this.txtCancionLibro.Name = "txtCancionLibro";
+            this.txtCancionLibro.Size = new System.Drawing.Size(259, 46);
+            this.txtCancionLibro.TabIndex = 2;
             // 
             // txtCorreccion
             // 
             this.txtCorreccion.Location = new System.Drawing.Point(122, 142);
             this.txtCorreccion.Multiline = true;
             this.txtCorreccion.Name = "txtCorreccion";
+            this.txtCorreccion.ReadOnly = true;
             this.txtCorreccion.Size = new System.Drawing.Size(156, 45);
             this.txtCorreccion.TabIndex = 3;
             // 
@@ -92,32 +93,40 @@
             this.txtOpcion1.Location = new System.Drawing.Point(54, 250);
             this.txtOpcion1.Multiline = true;
             this.txtOpcion1.Name = "txtOpcion1";
+            this.txtOpcion1.ReadOnly = true;
             this.txtOpcion1.Size = new System.Drawing.Size(278, 46);
             this.txtOpcion1.TabIndex = 4;
+            this.txtOpcion1.Click += new System.EventHandler(this.txtOpcion1_Click);
             // 
             // txtOpcion2
             // 
             this.txtOpcion2.Location = new System.Drawing.Point(54, 318);
             this.txtOpcion2.Multiline = true;
             this.txtOpcion2.Name = "txtOpcion2";
+            this.txtOpcion2.ReadOnly = true;
             this.txtOpcion2.Size = new System.Drawing.Size(278, 46);
             this.txtOpcion2.TabIndex = 5;
+            this.txtOpcion2.TextChanged += new System.EventHandler(this.txtOpcion2_TextChanged);
             // 
             // txtOpcion3
             // 
             this.txtOpcion3.Location = new System.Drawing.Point(54, 385);
             this.txtOpcion3.Multiline = true;
             this.txtOpcion3.Name = "txtOpcion3";
+            this.txtOpcion3.ReadOnly = true;
             this.txtOpcion3.Size = new System.Drawing.Size(278, 46);
             this.txtOpcion3.TabIndex = 6;
+            this.txtOpcion3.TextChanged += new System.EventHandler(this.txtOpcion3_TextChanged);
             // 
             // txtOpcion4
             // 
             this.txtOpcion4.Location = new System.Drawing.Point(54, 458);
             this.txtOpcion4.Multiline = true;
             this.txtOpcion4.Name = "txtOpcion4";
+            this.txtOpcion4.ReadOnly = true;
             this.txtOpcion4.Size = new System.Drawing.Size(278, 46);
             this.txtOpcion4.TabIndex = 7;
+            this.txtOpcion4.TextChanged += new System.EventHandler(this.txtOpcion4_TextChanged);
             // 
             // btnSiguiente
             // 
@@ -137,12 +146,14 @@
             this.btnSalir.TabIndex = 9;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // txtPorcentaje
             // 
             this.txtPorcentaje.Location = new System.Drawing.Point(238, 565);
             this.txtPorcentaje.Multiline = true;
             this.txtPorcentaje.Name = "txtPorcentaje";
+            this.txtPorcentaje.ReadOnly = true;
             this.txtPorcentaje.Size = new System.Drawing.Size(62, 38);
             this.txtPorcentaje.TabIndex = 10;
             // 
@@ -159,25 +170,26 @@
             // nuevaToolStripMenuItem
             // 
             this.nuevaToolStripMenuItem.Name = "nuevaToolStripMenuItem";
-            this.nuevaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevaToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.nuevaToolStripMenuItem.Text = "Nueva";
+            this.nuevaToolStripMenuItem.Click += new System.EventHandler(this.nuevaToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(105, 6);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             // 
             // opcionesToolStripMenuItem
             // 
             this.opcionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nombreCapitalesToolStripMenuItem,
-            this.nombrePaísesToolStripMenuItem,
+            this.nombreGruposToolStripMenuItem,
+            this.nombreLibrosToolStripMenuItem,
             this.toolStripSeparator2,
             this.múltiplesOpcionesToolStripMenuItem,
             this.escribirRespuestaToolStripMenuItem});
@@ -185,17 +197,19 @@
             this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.opcionesToolStripMenuItem.Text = "Opciones";
             // 
-            // nombreCapitalesToolStripMenuItem
+            // nombreGruposToolStripMenuItem
             // 
-            this.nombreCapitalesToolStripMenuItem.Name = "nombreCapitalesToolStripMenuItem";
-            this.nombreCapitalesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.nombreCapitalesToolStripMenuItem.Text = "Nombre Grupos";
+            this.nombreGruposToolStripMenuItem.Name = "nombreGruposToolStripMenuItem";
+            this.nombreGruposToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nombreGruposToolStripMenuItem.Text = "Modo Grupos ";
+            this.nombreGruposToolStripMenuItem.Click += new System.EventHandler(this.nombreGruposToolStripMenuItem_Click);
             // 
-            // nombrePaísesToolStripMenuItem
+            // nombreLibrosToolStripMenuItem
             // 
-            this.nombrePaísesToolStripMenuItem.Name = "nombrePaísesToolStripMenuItem";
-            this.nombrePaísesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.nombrePaísesToolStripMenuItem.Text = "Nombre Libros";
+            this.nombreLibrosToolStripMenuItem.Name = "nombreLibrosToolStripMenuItem";
+            this.nombreLibrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nombreLibrosToolStripMenuItem.Text = "Modo Libros";
+            this.nombreLibrosToolStripMenuItem.Click += new System.EventHandler(this.nombrePaísesToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
@@ -208,6 +222,7 @@
             this.múltiplesOpcionesToolStripMenuItem.Name = "múltiplesOpcionesToolStripMenuItem";
             this.múltiplesOpcionesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.múltiplesOpcionesToolStripMenuItem.Text = "Múltiples Opciones";
+            this.múltiplesOpcionesToolStripMenuItem.Click += new System.EventHandler(this.múltiplesOpcionesToolStripMenuItem_Click);
             // 
             // escribirRespuestaToolStripMenuItem
             // 
@@ -215,6 +230,7 @@
             this.escribirRespuestaToolStripMenuItem.Name = "escribirRespuestaToolStripMenuItem";
             this.escribirRespuestaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.escribirRespuestaToolStripMenuItem.Text = "Escribir Respuesta";
+            this.escribirRespuestaToolStripMenuItem.Click += new System.EventHandler(this.escribirRespuestaToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -240,9 +256,9 @@
             this.Controls.Add(this.txtOpcion2);
             this.Controls.Add(this.txtOpcion1);
             this.Controls.Add(this.txtCorreccion);
-            this.Controls.Add(this.txtRespuesta);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtCancionLibro);
+            this.Controls.Add(this.lblInferior);
+            this.Controls.Add(this.lblSuperior);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -256,9 +272,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtRespuesta;
+        private System.Windows.Forms.Label lblSuperior;
+        private System.Windows.Forms.Label lblInferior;
+        private System.Windows.Forms.TextBox txtCancionLibro;
         private System.Windows.Forms.TextBox txtCorreccion;
         private System.Windows.Forms.TextBox txtOpcion1;
         private System.Windows.Forms.TextBox txtOpcion2;
@@ -272,8 +288,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem opcionesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nombreCapitalesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nombrePaísesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nombreGruposToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nombreLibrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem múltiplesOpcionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem escribirRespuestaToolStripMenuItem;

@@ -87,6 +87,7 @@
             this.txtCorreccion.ReadOnly = true;
             this.txtCorreccion.Size = new System.Drawing.Size(156, 45);
             this.txtCorreccion.TabIndex = 3;
+            this.txtCorreccion.TextChanged += new System.EventHandler(this.txtCorreccion_TextChanged);
             // 
             // txtOpcion1
             // 
@@ -211,7 +212,7 @@
             this.nombreGruposToolStripMenuItem.CheckOnClick = true;
             this.nombreGruposToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.nombreGruposToolStripMenuItem.Name = "nombreGruposToolStripMenuItem";
-            this.nombreGruposToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.nombreGruposToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nombreGruposToolStripMenuItem.Text = "Modo Grupos ";
             this.nombreGruposToolStripMenuItem.Click += new System.EventHandler(this.nombreGruposToolStripMenuItem_Click);
             // 
@@ -219,20 +220,20 @@
             // 
             this.nombreLibrosToolStripMenuItem.CheckOnClick = true;
             this.nombreLibrosToolStripMenuItem.Name = "nombreLibrosToolStripMenuItem";
-            this.nombreLibrosToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.nombreLibrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nombreLibrosToolStripMenuItem.Text = "Modo Libros";
             this.nombreLibrosToolStripMenuItem.Click += new System.EventHandler(this.nombrePaísesToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(173, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // múltiplesOpcionesToolStripMenuItem
             // 
             this.múltiplesOpcionesToolStripMenuItem.CheckOnClick = true;
             this.múltiplesOpcionesToolStripMenuItem.Name = "múltiplesOpcionesToolStripMenuItem";
-            this.múltiplesOpcionesToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.múltiplesOpcionesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.múltiplesOpcionesToolStripMenuItem.Text = "Múltiples Opciones";
             this.múltiplesOpcionesToolStripMenuItem.Click += new System.EventHandler(this.múltiplesOpcionesToolStripMenuItem_Click);
             // 
@@ -240,7 +241,7 @@
             // 
             this.escribirRespuestaToolStripMenuItem.CheckOnClick = true;
             this.escribirRespuestaToolStripMenuItem.Name = "escribirRespuestaToolStripMenuItem";
-            this.escribirRespuestaToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.escribirRespuestaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.escribirRespuestaToolStripMenuItem.Text = "Escribir Respuesta";
             this.escribirRespuestaToolStripMenuItem.Click += new System.EventHandler(this.escribirRespuestaToolStripMenuItem_Click);
             // 

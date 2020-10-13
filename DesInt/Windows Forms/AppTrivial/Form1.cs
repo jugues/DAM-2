@@ -1,4 +1,5 @@
-﻿//INCOMPLETA
+﻿//el modo de escritura manual de respuestas y el botón de nueva partida no funcionan como deberían, igual que el textbox del porcentaje de aciertos
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -35,10 +36,6 @@ namespace AppTrivial
                 modoLibros();
             }
         }
-
-        /* 
-         Por hacer: eventos, colores.
-         */
 
         public void limpiarCajas()
         {
@@ -292,12 +289,30 @@ namespace AppTrivial
 
         private void escribirRespuestaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            txtOpcion1.ReadOnly = false;
+            txtOpcion1.ReadOnly = true;
             txtOpcion1.Visible = true;
-            txtOpcion1.Text = "";
+            txtOpcion1.Visible = false;
             txtOpcion2.Visible = false;
             txtOpcion3.Visible = false;
             txtOpcion4.Visible = false;
+            txtCorreccion.ReadOnly = false;
+
+            if (nombreGruposToolStripMenuItem.Checked)
+            {
+                if(txtCorreccion.Text != correcta)
+                {
+                    txtCorreccion.Text = "¡HAS FALLADO!";
+                    txtCorreccion.BackColor = Color.Coral;
+                }
+            }
+
+            else
+            {
+                txtCorreccion.Text = "¡CORRECTO!";
+                txtCorreccion.BackColor = Color.Azure;
+            }
+
+
         }
 
        private void txtOpcion1_KeyDown(Object sender, KeyEventArgs e)
@@ -314,6 +329,12 @@ namespace AppTrivial
         }
 
         private void TxtPorcentaje_TextChanged(object sender, EventArgs e)//caja para mostrar porcentaje
+        {
+            txtOpcion3.BackColor = Color.Aquamarine;
+            txtPorcentaje.Text = porcentaje.ToString() + "%";
+        }
+
+        private void txtCorreccion_TextChanged(object sender, EventArgs e)
         {
 
         }

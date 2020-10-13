@@ -18,3 +18,13 @@ C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\A
 C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\AppTrivial.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\AppTrivial.exe
 C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\AppTrivial.pdb
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\AppTrivial\bin\Debug\AppTrivial.exe.config
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\AppTrivial\bin\Debug\AppTrivial.exe
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\AppTrivial\bin\Debug\AppTrivial.pdb
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\AppTrivial.csprojAssemblyReference.cache
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\AppTrivial.Form1.resources
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\AppTrivial.Properties.Resources.resources
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\AppTrivial.csproj.GenerateResource.cache
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\AppTrivial.csproj.CoreCompileInputs.cache
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\AppTrivial.exe
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\AppTrivial\obj\Debug\AppTrivial.pdb

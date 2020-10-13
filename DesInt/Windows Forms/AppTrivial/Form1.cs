@@ -16,27 +16,46 @@ namespace AppTrivial
 
         String opcion;
         int porcentaje;
+        String correcta;
         public Form1()
         {
             InitializeComponent();
+            modoGrupos();
         }
 
         private void button1_Click(object sender, EventArgs e) //siguiente
         {
-            modoGrupos();
+            if (nombreGruposToolStripMenuItem.Checked)
+            {
+                modoGrupos();
+            }
+
+            else
+            {
+                modoLibros();
+            }
         }
 
         /* 
-         Por hacer: eventos, modo grupos de música y modo libros, colores.
+         Por hacer: eventos, colores.
          */
+
+        public void limpiarCajas()
+        {
+            txtOpcion1.BackColor = SystemColors.Control;
+            txtOpcion2.BackColor = SystemColors.Control;
+            txtOpcion3.BackColor = SystemColors.Control;
+            txtOpcion4.BackColor = SystemColors.Control;
+        }
 
         public void modoGrupos()
         {
             Random r = new Random();
             int numRandom = r.Next(0, 4);
-            int porcentaje = 100;
+            int porcentaje = 0;
+            limpiarCajas();
 
-            switch(numRandom)
+            switch (numRandom)
             {
                 case 0:
                     txtCancionLibro.Text = "Living on a Prayer";
@@ -45,10 +64,7 @@ namespace AppTrivial
                     txtOpcion3.Text = "Bon Jovi";
                     txtOpcion4.Text = "The Police";
 
-                    if(txtOpcion3.Capture)
-                    {
-
-                    }
+                    correcta = "Bon Jovi";
                 break;
 
                 case 1:
@@ -57,6 +73,8 @@ namespace AppTrivial
                     txtOpcion2.Text = "The Cranberries";
                     txtOpcion3.Text = "AC/DC";
                     txtOpcion4.Text = "U2";
+
+                    correcta = "The Cranberries";
                 break;
 
                 case 2:
@@ -65,6 +83,8 @@ namespace AppTrivial
                     txtOpcion2.Text = "blink-182";
                     txtOpcion3.Text = "Marilyn Manson";
                     txtOpcion4.Text = "Linkin Park";
+
+                    correcta = "Linkin Park";
                  break;
 
                 case 3:
@@ -73,6 +93,8 @@ namespace AppTrivial
                     txtOpcion2.Text = "Bruce Springsteen";
                     txtOpcion3.Text = "Led zeppelin";
                     txtOpcion4.Text = "A-ha";
+
+                    correcta = "A-ha";
                  break;
 
                 case 4:
@@ -81,6 +103,8 @@ namespace AppTrivial
                     txtOpcion2.Text = "Nirvana";
                     txtOpcion3.Text = "Red Hot Chilli Peppers";
                     txtOpcion4.Text = "The Offspring";
+
+                    correcta = "Red Hot Chilli Peppers";
                 break;
             }
         }
@@ -90,15 +114,19 @@ namespace AppTrivial
             Random ran = new Random();
             int numRan = ran.Next(0, 4);
             int porcentaje = 100;
+            limpiarCajas();
 
             switch (numRan)
             {
+                
                 case 0:
                     txtCancionLibro.Text = "Añoranzas y Pesares";
                     txtOpcion1.Text = "Miguel de Cervantes";
                     txtOpcion2.Text = "Laura Gallego";
                     txtOpcion3.Text = "Joe Abercrombie";
                     txtOpcion4.Text = "Tad Williams";
+
+                    correcta = "Tad Williams"; 
                     break;
 
                 case 1:
@@ -106,7 +134,9 @@ namespace AppTrivial
                     txtOpcion1.Text = "Margaret Weis";
                     txtOpcion2.Text = "Tracy Hickman";
                     txtOpcion3.Text = "Andrzej Sapkowski";
-                    txtOpcion4.Text = "U2";
+                    txtOpcion4.Text = "Miguel de Cervantes";
+
+                    correcta = "Andrzej Sapkowski";
                     break;
 
                 case 2:
@@ -115,6 +145,8 @@ namespace AppTrivial
                     txtOpcion2.Text = "Terry Pratchett";
                     txtOpcion3.Text = "Javier Negrete";
                     txtOpcion4.Text = "Terry Brooks";
+
+                    correcta = "Terry Pratchett";
                     break;
 
                 case 3:
@@ -123,6 +155,8 @@ namespace AppTrivial
                     txtOpcion2.Text = "Patrick Rothfuss";
                     txtOpcion3.Text = "Ursula K. Le Guin";
                     txtOpcion4.Text = "Michael Ende";
+
+                    correcta = "R.A. Salvatore";
                     break;
 
                 case 4:
@@ -131,26 +165,91 @@ namespace AppTrivial
                     txtOpcion2.Text = "C.S. Lewis";
                     txtOpcion3.Text = "Patrick Rothfuss";
                     txtOpcion4.Text = "Glen Cook";
+
+                    correcta = "Patrick Rothfuss";
                     break;
             }
         }
 
         private void txtOpcion1_Click(object sender, EventArgs e)
         {
+            if(txtOpcion1.Text == correcta)
+            {
+                txtOpcion1.Text = "¡CORRECTO!";
+                txtOpcion1.BackColor = Color.Azure;
+                porcentaje = +5;
+            }
 
+            else
+            {
+                txtOpcion1.Text = "¡HAS FALLADO!";
+                txtOpcion1.BackColor = Color.Coral;
+                porcentaje = -5;
+            }
         }
 
-        private void txtOpcion2_TextChanged(object sender, EventArgs e)
+        private void TxtOpcion2_Click(object sender, EventArgs e)
+        {
+            if (txtOpcion2.Text == correcta)
+            {
+                txtOpcion2.Text = "¡CORRECTO!";
+                txtOpcion2.BackColor = Color.Azure;
+                porcentaje = +5;
+            }
+
+            else
+            {
+                txtOpcion2.Text = "¡HAS FALLADO!";
+                txtOpcion2.BackColor = Color.Coral;
+                porcentaje = -5;
+            }
+        }
+
+        private void TxtOpcion3_Click(object sender, EventArgs e)
+        {
+            if (txtOpcion3.Text == correcta)
+            {
+                txtOpcion3.Text = "¡CORRECTO!";
+                txtOpcion3.BackColor = Color.Azure;
+                porcentaje = +5;
+            }
+
+            else
+            {
+                txtOpcion3.Text = "¡HAS FALLADO!";
+                txtOpcion3.BackColor = Color.Coral;
+                porcentaje = -5;
+            }
+        }
+
+        private void TxtOpcion4_Click(object sender, EventArgs e)
+        {
+            if (txtOpcion4.Text == correcta)
+            {
+                txtOpcion4.Text = "¡CORRECTO!";
+                txtOpcion4.BackColor = Color.Azure;
+                porcentaje = +5;
+            }
+
+            else
+            {
+                txtOpcion4.Text = "¡HAS FALLADO!";
+                txtOpcion4.BackColor = Color.Coral;
+                porcentaje = -5;
+            }
+        }
+
+        private void txtOpcion2_TextChanged(object sender, EventArgs e)//no usado
         {
 
         }
 
-        private void txtOpcion3_TextChanged(object sender, EventArgs e)
+        private void txtOpcion3_TextChanged(object sender, EventArgs e)//no usado
         {
 
         }
 
-        private void txtOpcion4_TextChanged(object sender, EventArgs e)
+        private void txtOpcion4_TextChanged(object sender, EventArgs e)//no usado
         {
 
         }
@@ -169,12 +268,21 @@ namespace AppTrivial
 
         private void nombreGruposToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            lblSuperior.Text = "Canción";
+            lblInferior.Text = "Grupo";
         }
 
         private void nuevaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (nombreGruposToolStripMenuItem.Checked)
+                {
+                    modoGrupos();
+                }
 
+            else if (nombreLibrosToolStripMenuItem.Checked)
+                {
+                    modoLibros();
+                }
         }
 
         private void múltiplesOpcionesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -186,6 +294,7 @@ namespace AppTrivial
         {
             txtOpcion1.ReadOnly = false;
             txtOpcion1.Visible = true;
+            txtOpcion1.Text = "";
             txtOpcion2.Visible = false;
             txtOpcion3.Visible = false;
             txtOpcion4.Visible = false;
@@ -197,6 +306,16 @@ namespace AppTrivial
             {
 
             }
+        }
+
+        private void SalirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void TxtPorcentaje_TextChanged(object sender, EventArgs e)//caja para mostrar porcentaje
+        {
+
         }
     }
 }

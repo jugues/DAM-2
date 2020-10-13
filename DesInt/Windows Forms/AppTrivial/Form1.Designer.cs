@@ -90,6 +90,9 @@
             // 
             // txtOpcion1
             // 
+            this.txtOpcion1.BackColor = System.Drawing.SystemColors.Control;
+            this.txtOpcion1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOpcion1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtOpcion1.Location = new System.Drawing.Point(54, 250);
             this.txtOpcion1.Multiline = true;
             this.txtOpcion1.Name = "txtOpcion1";
@@ -106,6 +109,7 @@
             this.txtOpcion2.ReadOnly = true;
             this.txtOpcion2.Size = new System.Drawing.Size(278, 46);
             this.txtOpcion2.TabIndex = 5;
+            this.txtOpcion2.Click += new System.EventHandler(this.TxtOpcion2_Click);
             this.txtOpcion2.TextChanged += new System.EventHandler(this.txtOpcion2_TextChanged);
             // 
             // txtOpcion3
@@ -116,6 +120,7 @@
             this.txtOpcion3.ReadOnly = true;
             this.txtOpcion3.Size = new System.Drawing.Size(278, 46);
             this.txtOpcion3.TabIndex = 6;
+            this.txtOpcion3.Click += new System.EventHandler(this.TxtOpcion3_Click);
             this.txtOpcion3.TextChanged += new System.EventHandler(this.txtOpcion3_TextChanged);
             // 
             // txtOpcion4
@@ -126,6 +131,7 @@
             this.txtOpcion4.ReadOnly = true;
             this.txtOpcion4.Size = new System.Drawing.Size(278, 46);
             this.txtOpcion4.TabIndex = 7;
+            this.txtOpcion4.Click += new System.EventHandler(this.TxtOpcion4_Click);
             this.txtOpcion4.TextChanged += new System.EventHandler(this.txtOpcion4_TextChanged);
             // 
             // btnSiguiente
@@ -156,6 +162,7 @@
             this.txtPorcentaje.ReadOnly = true;
             this.txtPorcentaje.Size = new System.Drawing.Size(62, 38);
             this.txtPorcentaje.TabIndex = 10;
+            this.txtPorcentaje.TextChanged += new System.EventHandler(this.TxtPorcentaje_TextChanged);
             // 
             // partidaToolStripMenuItem
             // 
@@ -184,6 +191,7 @@
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.SalirToolStripMenuItem_Click);
             // 
             // opcionesToolStripMenuItem
             // 
@@ -199,28 +207,32 @@
             // 
             // nombreGruposToolStripMenuItem
             // 
+            this.nombreGruposToolStripMenuItem.Checked = true;
+            this.nombreGruposToolStripMenuItem.CheckOnClick = true;
+            this.nombreGruposToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.nombreGruposToolStripMenuItem.Name = "nombreGruposToolStripMenuItem";
-            this.nombreGruposToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nombreGruposToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.nombreGruposToolStripMenuItem.Text = "Modo Grupos ";
             this.nombreGruposToolStripMenuItem.Click += new System.EventHandler(this.nombreGruposToolStripMenuItem_Click);
             // 
             // nombreLibrosToolStripMenuItem
             // 
+            this.nombreLibrosToolStripMenuItem.CheckOnClick = true;
             this.nombreLibrosToolStripMenuItem.Name = "nombreLibrosToolStripMenuItem";
-            this.nombreLibrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nombreLibrosToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.nombreLibrosToolStripMenuItem.Text = "Modo Libros";
             this.nombreLibrosToolStripMenuItem.Click += new System.EventHandler(this.nombrePaísesToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(173, 6);
             // 
             // múltiplesOpcionesToolStripMenuItem
             // 
             this.múltiplesOpcionesToolStripMenuItem.CheckOnClick = true;
             this.múltiplesOpcionesToolStripMenuItem.Name = "múltiplesOpcionesToolStripMenuItem";
-            this.múltiplesOpcionesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.múltiplesOpcionesToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.múltiplesOpcionesToolStripMenuItem.Text = "Múltiples Opciones";
             this.múltiplesOpcionesToolStripMenuItem.Click += new System.EventHandler(this.múltiplesOpcionesToolStripMenuItem_Click);
             // 
@@ -228,7 +240,7 @@
             // 
             this.escribirRespuestaToolStripMenuItem.CheckOnClick = true;
             this.escribirRespuestaToolStripMenuItem.Name = "escribirRespuestaToolStripMenuItem";
-            this.escribirRespuestaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.escribirRespuestaToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.escribirRespuestaToolStripMenuItem.Text = "Escribir Respuesta";
             this.escribirRespuestaToolStripMenuItem.Click += new System.EventHandler(this.escribirRespuestaToolStripMenuItem_Click);
             // 

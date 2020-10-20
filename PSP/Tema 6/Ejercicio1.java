@@ -32,6 +32,10 @@ public class Ejercicio1 {
 			String strb = teclado.readLine();
 			a = Double.parseDouble(stra);
 			b = Double.parseDouble(strb);
+			if(a == 0 || b == 0)
+			{
+				throw new Exception();
+			}
 			resul = a/b;
 			System.out.println("División realizada correctamente. El resultado es " + resul);
 			

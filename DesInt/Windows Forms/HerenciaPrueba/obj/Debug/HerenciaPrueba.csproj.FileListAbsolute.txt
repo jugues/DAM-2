@@ -1,0 +1,12 @@
+C:\Users\Juli\source\repos\HerenciaPrueba\bin\Debug\HerenciaPrueba.exe.config
+C:\Users\Juli\source\repos\HerenciaPrueba\bin\Debug\HerenciaPrueba.exe
+C:\Users\Juli\source\repos\HerenciaPrueba\bin\Debug\HerenciaPrueba.pdb
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.Cliente.resources
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.FrmInicio.resources
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.FrmAlta.resources
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.Properties.Resources.resources
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.exe
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.pdb

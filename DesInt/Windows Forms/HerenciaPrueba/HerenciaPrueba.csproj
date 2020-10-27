@@ -52,6 +52,24 @@
     <Compile Include="Cliente.Designer.cs">
       <DependentUpon>Cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConsultaList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaList.Designer.cs">
+      <DependentUpon>ConsultaList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaTree.Designer.cs">
+      <DependentUpon>ConsultaTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +86,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaList.resx">
+      <DependentUpon>ConsultaList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaTree.resx">
+      <DependentUpon>ConsultaTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInicio.resx">
       <DependentUpon>FrmInicio.cs</DependentUpon>

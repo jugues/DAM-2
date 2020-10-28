@@ -1,0 +1,10 @@
+C:\Users\Juli\source\repos\PruebaListView\bin\Debug\PruebaListView.exe.config
+C:\Users\Juli\source\repos\PruebaListView\bin\Debug\PruebaListView.exe
+C:\Users\Juli\source\repos\PruebaListView\bin\Debug\PruebaListView.pdb
+C:\Users\Juli\source\repos\PruebaListView\obj\Debug\PruebaListView.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\PruebaListView\obj\Debug\PruebaListView.Form1.resources
+C:\Users\Juli\source\repos\PruebaListView\obj\Debug\PruebaListView.Properties.Resources.resources
+C:\Users\Juli\source\repos\PruebaListView\obj\Debug\PruebaListView.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\PruebaListView\obj\Debug\PruebaListView.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\PruebaListView\obj\Debug\PruebaListView.exe
+C:\Users\Juli\source\repos\PruebaListView\obj\Debug\PruebaListView.pdb

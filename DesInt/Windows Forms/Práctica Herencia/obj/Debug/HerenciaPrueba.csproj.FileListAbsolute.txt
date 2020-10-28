@@ -1,0 +1,24 @@
+C:\Users\Juli\source\repos\HerenciaPrueba\bin\Debug\HerenciaPrueba.exe.config
+C:\Users\Juli\source\repos\HerenciaPrueba\bin\Debug\HerenciaPrueba.exe
+C:\Users\Juli\source\repos\HerenciaPrueba\bin\Debug\HerenciaPrueba.pdb
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.Cliente.resources
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.FrmInicio.resources
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.FrmAlta.resources
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.Properties.Resources.resources
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.exe
+C:\Users\Juli\source\repos\HerenciaPrueba\obj\Debug\HerenciaPrueba.pdb
+F:\DAM 2\Interfaces\Práctica 3\bin\Debug\HerenciaPrueba.exe.config
+F:\DAM 2\Interfaces\Práctica 3\bin\Debug\HerenciaPrueba.exe
+F:\DAM 2\Interfaces\Práctica 3\bin\Debug\HerenciaPrueba.pdb
+F:\DAM 2\Interfaces\Práctica 3\obj\Debug\HerenciaPrueba.csprojAssemblyReference.cache
+F:\DAM 2\Interfaces\Práctica 3\obj\Debug\HerenciaPrueba.Cliente.resources
+F:\DAM 2\Interfaces\Práctica 3\obj\Debug\HerenciaPrueba.FrmInicio.resources
+F:\DAM 2\Interfaces\Práctica 3\obj\Debug\HerenciaPrueba.FrmAlta.resources
+F:\DAM 2\Interfaces\Práctica 3\obj\Debug\HerenciaPrueba.Properties.Resources.resources
+F:\DAM 2\Interfaces\Práctica 3\obj\Debug\HerenciaPrueba.csproj.GenerateResource.cache
+F:\DAM 2\Interfaces\Práctica 3\obj\Debug\HerenciaPrueba.csproj.CoreCompileInputs.cache
+F:\DAM 2\Interfaces\Práctica 3\obj\Debug\HerenciaPrueba.exe
+F:\DAM 2\Interfaces\Práctica 3\obj\Debug\HerenciaPrueba.pdb

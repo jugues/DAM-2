@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" >
+<departamento> 
+    <empleado> 
+        <idEmpleado>10</idEmpleado> 
+        <nombre>Julián</nombre> 
+        <paterno>Guagnano</paterno>
+        <materno>Escobar</materno>
+    </empleado> 
+    <empleado>
+        <idEmpleado>30</idEmpleado>
+        <nombre>María</nombre>
+        <paterno>Romero</nombre>
+        <materno>García</materno>
+    </empleado>
+</departamento>

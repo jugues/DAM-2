@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<libreria>
+	<nombre>Novelas ligeras</nombre>
+	<libros>
+		<libro isbn="88800">
+			<titulo>Mushoku Tensei</titulo>
+			<autor>Rifujin na Magonote</autor>
+		</libro>
+		<libro isbn="88888">
+			<titulo>Slayers</titulo>
+			<autor>Hajime Kanzaka</autor>
+		</libro>
+		<libro isbn="1975332385">
+			<titulo>Konosuba</titulo>
+			<autor>Natsume Akatsuki</autor>
+		</libro>
+	</libros>
+</libreria>

@@ -349,9 +349,9 @@
             // pbBola
             // 
             this.pbBola.Image = ((System.Drawing.Image)(resources.GetObject("pbBola.Image")));
-            this.pbBola.Location = new System.Drawing.Point(397, 434);
+            this.pbBola.Location = new System.Drawing.Point(381, 290);
             this.pbBola.Name = "pbBola";
-            this.pbBola.Size = new System.Drawing.Size(55, 48);
+            this.pbBola.Size = new System.Drawing.Size(52, 48);
             this.pbBola.TabIndex = 26;
             this.pbBola.TabStop = false;
             this.pbBola.Tag = "ball";

@@ -132,7 +132,7 @@ namespace PracticaArkanoid
             //si perdemos 
             if(pbBola.Top > 700)
             {
-                gameOver("¡Otra vez será!");
+                gameOver("¡Perdiste!");
             }
         }
 
@@ -141,5 +141,6 @@ namespace PracticaArkanoid
             timer1.Stop();
             btnLabel.Text = "Puntuación: " + score + " " + msg;
         }
+
     }
 }

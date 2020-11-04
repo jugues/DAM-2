@@ -8,3 +8,13 @@ C:\Users\Juli\source\repos\PracticaArkanoid\obj\Debug\PracticaArkanoid.csproj.Ge
 C:\Users\Juli\source\repos\PracticaArkanoid\obj\Debug\PracticaArkanoid.csproj.CoreCompileInputs.cache
 C:\Users\Juli\source\repos\PracticaArkanoid\obj\Debug\PracticaArkanoid.exe
 C:\Users\Juli\source\repos\PracticaArkanoid\obj\Debug\PracticaArkanoid.pdb
+C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\PracticaArkanoid\bin\Debug\PracticaArkanoid.exe.config
+C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\PracticaArkanoid\bin\Debug\PracticaArkanoid.exe
+C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\PracticaArkanoid\bin\Debug\PracticaArkanoid.pdb
+C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\PracticaArkanoid\obj\Debug\PracticaArkanoid.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\PracticaArkanoid\obj\Debug\PracticaArkanoid.Form1.resources
+C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\PracticaArkanoid\obj\Debug\PracticaArkanoid.Properties.Resources.resources
+C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\PracticaArkanoid\obj\Debug\PracticaArkanoid.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\PracticaArkanoid\obj\Debug\PracticaArkanoid.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\PracticaArkanoid\obj\Debug\PracticaArkanoid.exe
+C:\Users\alumno\Desktop\DAM-2-master\DesInt\Windows Forms\PracticaArkanoid\obj\Debug\PracticaArkanoid.pdb

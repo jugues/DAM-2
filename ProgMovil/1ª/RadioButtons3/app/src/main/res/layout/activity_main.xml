@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animales"
+        android:textSize="30dp" />
+
+    <RadioGroup
+        android:id="@+id/rbGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbTigre"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:text="@string/tigre" />
+        <RadioButton
+            android:id="@+id/rbAguila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aguila" />
+        <RadioButton
+            android:id="@+id/rbLeon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leon" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        />
+
+</LinearLayout>

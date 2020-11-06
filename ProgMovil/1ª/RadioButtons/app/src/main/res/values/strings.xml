@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RadioButtons</string>
+    <string name="tigre">Tigre</string>
+    <string name="leon">León</string>
+    <string name="aguila">Águila</string>
+    <string name="seleccionar">Seleccionar</string>
+</resources>

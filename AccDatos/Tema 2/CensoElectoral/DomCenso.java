@@ -23,12 +23,10 @@ public class DomCenso {
 	
 	private final static String docEntrada = "escrutinio_municipales_2015.xml";
 	private final static String docSalida = "censo.xml";
-	
+	int votantes = 0; 
+	int votosAyuntamiento = 0;
 
-	public static void main(String[] args) {
-		
-		int votantes = 0; 
-		int votosAyuntamiento = 0; 
+	public static void main(String[] args) { 
 		
 		try
 		{
@@ -73,9 +71,10 @@ public class DomCenso {
 	}
 	
 	public static Document loadDocToDoc (Document docLectura) throws ParserConfigurationException 
+	
 	{
-		int iTotal = 0; 
-		
+	
+		int iTotal = 0;
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 		Document doc = dBuilder.newDocument();

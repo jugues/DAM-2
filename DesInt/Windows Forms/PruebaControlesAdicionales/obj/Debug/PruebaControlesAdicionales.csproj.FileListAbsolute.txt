@@ -1,0 +1,10 @@
+C:\Users\Juli\source\repos\PruebaControlesAdicionales\bin\Debug\PruebaControlesAdicionales.exe.config
+C:\Users\Juli\source\repos\PruebaControlesAdicionales\bin\Debug\PruebaControlesAdicionales.exe
+C:\Users\Juli\source\repos\PruebaControlesAdicionales\bin\Debug\PruebaControlesAdicionales.pdb
+C:\Users\Juli\source\repos\PruebaControlesAdicionales\obj\Debug\PruebaControlesAdicionales.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\PruebaControlesAdicionales\obj\Debug\PruebaControlesAdicionales.Form1.resources
+C:\Users\Juli\source\repos\PruebaControlesAdicionales\obj\Debug\PruebaControlesAdicionales.Properties.Resources.resources
+C:\Users\Juli\source\repos\PruebaControlesAdicionales\obj\Debug\PruebaControlesAdicionales.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\PruebaControlesAdicionales\obj\Debug\PruebaControlesAdicionales.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\PruebaControlesAdicionales\obj\Debug\PruebaControlesAdicionales.exe
+C:\Users\Juli\source\repos\PruebaControlesAdicionales\obj\Debug\PruebaControlesAdicionales.pdb

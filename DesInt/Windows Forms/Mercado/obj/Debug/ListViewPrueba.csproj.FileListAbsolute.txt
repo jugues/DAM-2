@@ -1,0 +1,10 @@
+C:\Users\alumno\Source\Repos\ListViewPrueba\bin\Debug\ListViewPrueba.exe.config
+C:\Users\alumno\Source\Repos\ListViewPrueba\bin\Debug\ListViewPrueba.exe
+C:\Users\alumno\Source\Repos\ListViewPrueba\bin\Debug\ListViewPrueba.pdb
+C:\Users\alumno\Source\Repos\ListViewPrueba\obj\Debug\ListViewPrueba.csprojAssemblyReference.cache
+C:\Users\alumno\Source\Repos\ListViewPrueba\obj\Debug\ListViewPrueba.Form1.resources
+C:\Users\alumno\Source\Repos\ListViewPrueba\obj\Debug\ListViewPrueba.Properties.Resources.resources
+C:\Users\alumno\Source\Repos\ListViewPrueba\obj\Debug\ListViewPrueba.csproj.GenerateResource.cache
+C:\Users\alumno\Source\Repos\ListViewPrueba\obj\Debug\ListViewPrueba.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Source\Repos\ListViewPrueba\obj\Debug\ListViewPrueba.exe
+C:\Users\alumno\Source\Repos\ListViewPrueba\obj\Debug\ListViewPrueba.pdb

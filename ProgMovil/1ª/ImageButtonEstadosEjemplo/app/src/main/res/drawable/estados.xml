@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+    android:drawable="@drawable/rojo" />
+    <item android:state_focused="true"
+        android:drawable="@drawable/naranja" />
+    <item android:drawable="@drawable/verde" />
+    <!-- Los elementos tienen que estar en este orden o no funciona -->
+</selector>

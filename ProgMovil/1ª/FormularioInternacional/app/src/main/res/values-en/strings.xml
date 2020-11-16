@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="formulario">Form</string>
+    <string name="app_name">InternationalForm</string>
+    <string name="nombre">Name:</string>
+    <string name="apellidos">Surname:</string>
+    <string name="telefono">Telephone number:</string>
+    <string name="email">Email address:</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="formulario">登録用紙</string>
+    <string name="app_name">インターナショナル用紙</string>
+    <string name="nombre">名前:</string>
+    <string name="apellidos">名字:</string>
+    <string name="telefono">電話番号</string>
+    <string name="email">電子メールアドレス:</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="formulario">Formulario</string>
+    <string name="app_name">FormularioInternacional</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="telefono">Teléfono:</string>
+    <string name="email">Email:</string>
+</resources>

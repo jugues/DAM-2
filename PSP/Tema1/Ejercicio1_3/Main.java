@@ -30,10 +30,15 @@ public class Main {
 		try
 		{
 			aHilos[0].join();
+			finalizar1 = ((Hilo) aHilos[0]).getValor();
 			aHilos[1].join();
+			finalizar2 = ((Hilo)aHilos[1]).getValor();
 			aHilos[2].join();
+			finalizar3 = ((Hilo)aHilos[2]).getValor();
 			aHilos[3].join();
+			finalizar4 = ((Hilo)aHilos[3]).getValor();
 			aHilos[4].join();
+			finalizar5 = ((Hilo)aHilos[4]).getValor();
 		}
 		
 		catch(Exception e)
@@ -42,7 +47,7 @@ public class Main {
 			Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, e);
 		}
 		
-		System.out.println(finalizar1 + "" + finalizar2 + "" + finalizar3 + "" + finalizar4 + "" + finalizar5);
+		System.out.println(finalizar1 + " " + finalizar2 + " " + finalizar3 + " " + finalizar4 + " " + finalizar5);
 	}
 
 }

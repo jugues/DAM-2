@@ -30,7 +30,7 @@ public class Hilo extends Thread {
 		System.out.println("");
 		try
 		{
-			Thread.sleep(time);
+			Thread.sleep(time * 1000);
 			System.out.println(getName() + " has arrived to the goal after " + String.valueOf(time) + " seconds.");
 		}
 		

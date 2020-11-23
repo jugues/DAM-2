@@ -1,0 +1,10 @@
+C:\Users\Juli\source\repos\ExploradorArchivos\bin\Debug\ExploradorArchivos.exe.config
+C:\Users\Juli\source\repos\ExploradorArchivos\bin\Debug\ExploradorArchivos.exe
+C:\Users\Juli\source\repos\ExploradorArchivos\bin\Debug\ExploradorArchivos.pdb
+C:\Users\Juli\source\repos\ExploradorArchivos\obj\Debug\ExploradorArchivos.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\ExploradorArchivos\obj\Debug\ExploradorArchivos.Form1.resources
+C:\Users\Juli\source\repos\ExploradorArchivos\obj\Debug\ExploradorArchivos.Properties.Resources.resources
+C:\Users\Juli\source\repos\ExploradorArchivos\obj\Debug\ExploradorArchivos.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\ExploradorArchivos\obj\Debug\ExploradorArchivos.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\ExploradorArchivos\obj\Debug\ExploradorArchivos.exe
+C:\Users\Juli\source\repos\ExploradorArchivos\obj\Debug\ExploradorArchivos.pdb

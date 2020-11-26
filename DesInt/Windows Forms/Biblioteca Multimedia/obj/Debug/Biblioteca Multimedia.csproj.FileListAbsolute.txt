@@ -1,0 +1,13 @@
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\bin\Debug\Biblioteca Multimedia.exe.config
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\bin\Debug\Biblioteca Multimedia.exe
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\bin\Debug\Biblioteca Multimedia.pdb
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\obj\Debug\Biblioteca Multimedia.csprojAssemblyReference.cache
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\obj\Debug\Biblioteca_Multimedia.FrmPrincipal.resources
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\obj\Debug\Biblioteca_Multimedia.FrmAlta.resources
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\obj\Debug\Biblioteca_Multimedia.FrmConsulta.resources
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\obj\Debug\Biblioteca_Multimedia.FrmVer.resources
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\obj\Debug\Biblioteca_Multimedia.Properties.Resources.resources
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\obj\Debug\Biblioteca Multimedia.csproj.GenerateResource.cache
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\obj\Debug\Biblioteca Multimedia.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\obj\Debug\Biblioteca Multimedia.exe
+C:\Users\alumno\Source\Repos\Biblioteca Multimedia\obj\Debug\Biblioteca Multimedia.pdb

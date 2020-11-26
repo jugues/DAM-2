@@ -8,3 +8,13 @@ C:\Users\alumno\Source\Repos\Reloj Mundial\bin\Debug\Reloj Mundial.pdb
 C:\Users\alumno\Source\Repos\Reloj Mundial\obj\Debug\Reloj_Mundial.Form1.resources
 C:\Users\alumno\Source\Repos\Reloj Mundial\obj\Debug\Reloj Mundial.exe
 C:\Users\alumno\Source\Repos\Reloj Mundial\obj\Debug\Reloj Mundial.pdb
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\Reloj Mundial\bin\Debug\Reloj Mundial.exe.config
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\Reloj Mundial\bin\Debug\Reloj Mundial.exe
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\Reloj Mundial\bin\Debug\Reloj Mundial.pdb
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\Reloj Mundial\obj\Debug\Reloj Mundial.csprojAssemblyReference.cache
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\Reloj Mundial\obj\Debug\Reloj_Mundial.Properties.Resources.resources
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\Reloj Mundial\obj\Debug\Reloj Mundial.csproj.GenerateResource.cache
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\Reloj Mundial\obj\Debug\Reloj Mundial.csproj.CoreCompileInputs.cache
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\Reloj Mundial\obj\Debug\Reloj Mundial.exe
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\Reloj Mundial\obj\Debug\Reloj Mundial.pdb
+C:\Users\Juli\Downloads\DAM-2-master\DesInt\Windows Forms\Reloj Mundial\obj\Debug\Reloj_Mundial.FrmPrincipal.resources

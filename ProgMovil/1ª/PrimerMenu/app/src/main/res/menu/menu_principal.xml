@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemIdealista"
+        android:title="Idealista"
+        />
+    <item
+        android:id="@+id/itemVanguardia"
+        android:title="Vanguardia"
+        />
+
+</menu> -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemInmobiliarias"
+        android:title="Inmobiliarias">
+        <menu>
+            <item
+                android:id="@+id/itemFotocasa"
+                android:title="Fotocasa"
+                />
+            <item
+                android:id="@+id/itemIdealista"
+                android:title="Idealista"
+                />
+            <item
+                android:id="@+id/itemMilanuncios"
+                android:title="Milanuncios"
+                />
+        </menu>
+        </item>
+
+    <item
+        android:id="@+id/itemDiarios"
+        android:title="Diarios">
+        <menu>
+            <item
+                android:id="@+id/itemVanguardia"
+                android:title="La Vanguardia"
+                />
+            <item
+                android:id="@+id/itemInfolibre"
+                android:title="Infolibre"
+                />
+            <item
+                android:id="@+id/itemConfidencial"
+                android:title="El Confidencial"
+                />
+        </menu>
+        </item>
+
+</menu>

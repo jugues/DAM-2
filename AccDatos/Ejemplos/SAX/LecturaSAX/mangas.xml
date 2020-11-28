@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mangas>
+ <manga id="1">
+  <titulo>Maison Ikkoku</titulo>
+  <autor>Rumiko Takahashi</autor>
+  <demografia>Seinen</demografia>
+ </manga>
+ <manga id="2">
+  <titulo>Bastard!!</titulo>
+  <autor>Kazushi Hagiwara</autor>
+  <demografia>Seinen</demografia>
+ </manga>
+ <manga id="3">
+  <titulo>TSUBASA: Reservoir Chronicle</titulo>
+  <autor>CLAMP</autor>
+  <demografia>Shounen</demografia>
+ </manga>
+ <manga id="4">
+  <titulo>Fullmetal Alchemist</titulo>
+  <autor>Hiromu Arakawa</autor>
+  <demografia>Shounen</demografia>
+ </manga>
+</mangas>

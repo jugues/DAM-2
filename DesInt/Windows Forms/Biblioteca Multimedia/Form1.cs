@@ -16,6 +16,7 @@ namespace Biblioteca_Multimedia
         List<IElementoMultimedia> elementos;
         FrmAlta alta;
         FrmConsulta consulta;
+        FrmVer ver;
 
         public FrmPrincipal()
         {
@@ -25,6 +26,7 @@ namespace Biblioteca_Multimedia
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
             this.IsMdiContainer = true;
+            elementos = new List<IElementoMultimedia>();
         }
 
         private void AltaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -36,9 +38,15 @@ namespace Biblioteca_Multimedia
                 consulta = null;
             }
 
+            if(ver != null)
+            {
+                ver.Close();
+                ver = null;
+            }
+
             if (alta == null)
             {
-                alta = new FrmAlta();
+                alta = new FrmAlta(elementos);
                 alta.MdiParent = this;
                 alta.Dock = DockStyle.Fill;
                 alta.Show();
@@ -56,7 +64,7 @@ namespace Biblioteca_Multimedia
             }
             if(consulta == null)
             {
-                consulta = new FrmConsulta();
+                consulta = new FrmConsulta(elementos);
                 consulta.MdiParent = this;
                 consulta.Dock = DockStyle.Fill;
                 consulta.Show();

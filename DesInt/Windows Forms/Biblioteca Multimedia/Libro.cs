@@ -10,6 +10,7 @@ namespace Biblioteca_Multimedia
     {
         private string titulo, editorial, isbn, resumen;
 
+
         public Libro(string titulo, string editorial, string isbn, string resumen)
         {
             this.titulo = titulo;
@@ -30,7 +31,7 @@ namespace Biblioteca_Multimedia
 
         string IElementoMultimedia.getTitulo()
         {
-            throw new NotImplementedException();
+            return this.Titulo;
         }
 
         void IElementoMultimedia.mostrar()

@@ -36,10 +36,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tb1 = new System.Windows.Forms.TextBox();
+            this.tb2 = new System.Windows.Forms.TextBox();
+            this.tb3 = new System.Windows.Forms.TextBox();
+            this.tb4 = new System.Windows.Forms.TextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -70,6 +70,7 @@
             this.rbCd.TabStop = true;
             this.rbCd.Text = "CD";
             this.rbCd.UseVisualStyleBackColor = true;
+            this.rbCd.CheckedChanged += new System.EventHandler(this.RbCd_CheckedChanged);
             // 
             // rbRevista
             // 
@@ -82,6 +83,7 @@
             this.rbRevista.TabStop = true;
             this.rbRevista.Text = "Revista";
             this.rbRevista.UseVisualStyleBackColor = true;
+            this.rbRevista.CheckedChanged += new System.EventHandler(this.RbRevista_CheckedChanged);
             // 
             // rbLibro
             // 
@@ -94,12 +96,13 @@
             this.rbLibro.TabStop = true;
             this.rbLibro.Text = "Libro";
             this.rbLibro.UseVisualStyleBackColor = true;
+            this.rbLibro.CheckedChanged += new System.EventHandler(this.RbLibro_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(370, 82);
+            this.label1.Location = new System.Drawing.Point(313, 76);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 18);
@@ -110,7 +113,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(370, 147);
+            this.label2.Location = new System.Drawing.Point(313, 141);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 18);
@@ -121,7 +124,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(370, 202);
+            this.label3.Location = new System.Drawing.Point(313, 202);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 18);
@@ -132,41 +135,41 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(370, 275);
+            this.label4.Location = new System.Drawing.Point(313, 272);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 18);
             this.label4.TabIndex = 4;
             this.label4.Text = "Resumen";
             // 
-            // textBox1
+            // tb1
             // 
-            this.textBox1.Location = new System.Drawing.Point(484, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(208, 24);
-            this.textBox1.TabIndex = 5;
+            this.tb1.Location = new System.Drawing.Point(418, 76);
+            this.tb1.Name = "tb1";
+            this.tb1.Size = new System.Drawing.Size(208, 24);
+            this.tb1.TabIndex = 5;
             // 
-            // textBox2
+            // tb2
             // 
-            this.textBox2.Location = new System.Drawing.Point(484, 141);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(208, 24);
-            this.textBox2.TabIndex = 6;
+            this.tb2.Location = new System.Drawing.Point(418, 141);
+            this.tb2.Name = "tb2";
+            this.tb2.Size = new System.Drawing.Size(208, 24);
+            this.tb2.TabIndex = 6;
             // 
-            // textBox3
+            // tb3
             // 
-            this.textBox3.Location = new System.Drawing.Point(484, 202);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(208, 24);
-            this.textBox3.TabIndex = 7;
+            this.tb3.Location = new System.Drawing.Point(418, 202);
+            this.tb3.Name = "tb3";
+            this.tb3.Size = new System.Drawing.Size(208, 24);
+            this.tb3.TabIndex = 7;
             // 
-            // textBox4
+            // tb4
             // 
-            this.textBox4.Location = new System.Drawing.Point(484, 272);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(208, 81);
-            this.textBox4.TabIndex = 8;
+            this.tb4.Location = new System.Drawing.Point(418, 272);
+            this.tb4.Multiline = true;
+            this.tb4.Name = "tb4";
+            this.tb4.Size = new System.Drawing.Size(208, 81);
+            this.tb4.TabIndex = 8;
             // 
             // btnGuardar
             // 
@@ -176,6 +179,7 @@
             this.btnGuardar.TabIndex = 9;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
             // btnLimpiar
             // 
@@ -185,6 +189,7 @@
             this.btnLimpiar.TabIndex = 10;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
             // 
             // FrmAlta
             // 
@@ -193,10 +198,10 @@
             this.ClientSize = new System.Drawing.Size(743, 477);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnGuardar);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb4);
+            this.Controls.Add(this.tb3);
+            this.Controls.Add(this.tb2);
+            this.Controls.Add(this.tb1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -205,7 +210,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmAlta";
-            this.Text = "FrmAlta";
+            this.Text = "Alta de elementos";
             this.Load += new System.EventHandler(this.FrmAlta_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -224,10 +229,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tb1;
+        private System.Windows.Forms.TextBox tb2;
+        private System.Windows.Forms.TextBox tb3;
+        private System.Windows.Forms.TextBox tb4;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnLimpiar;
     }

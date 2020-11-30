@@ -8,7 +8,8 @@ namespace Biblioteca_Multimedia
 {
     public class Revista : IElementoMultimedia
     {
-        string titulo, fecha, editorial;
+        private string titulo, fecha, editorial, textoBuscar;
+        bool textoExiste;
         int num;
 
         public Revista(string titulo, string fecha, string editorial, int num)
@@ -26,12 +27,13 @@ namespace Biblioteca_Multimedia
 
         bool IElementoMultimedia.buscar(string texto)
         {
-            throw new NotImplementedException();
+            this.textoBuscar = texto;
+            return true;
         }
 
         string IElementoMultimedia.getTitulo()
         {
-            throw new NotImplementedException();
+            return this.titulo;
         }
 
         void IElementoMultimedia.mostrar()

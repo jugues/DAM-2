@@ -26,12 +26,12 @@ namespace Biblioteca_Multimedia
 
         string IElementoMultimedia.getTitulo()
         {
-            throw new NotImplementedException();
+            return this.titulo;
         }
 
         void IElementoMultimedia.mostrar()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\Juli\source\repos\Gestión Biblioteca\obj\Debug\Gestión Biblioteca.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\Gestión Biblioteca\obj\Debug\Gestión_Biblioteca.FrmAlta.resources
+C:\Users\Juli\source\repos\Gestión Biblioteca\obj\Debug\Gestión_Biblioteca.FrmConsulta.resources
+C:\Users\Juli\source\repos\Gestión Biblioteca\obj\Debug\Gestión_Biblioteca.FrmPadre.resources
+C:\Users\Juli\source\repos\Gestión Biblioteca\obj\Debug\Gestión_Biblioteca.Properties.Resources.resources
+C:\Users\Juli\source\repos\Gestión Biblioteca\obj\Debug\Gestión Biblioteca.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\Gestión Biblioteca\obj\Debug\Gestión Biblioteca.csproj.CoreCompileInputs.cache

@@ -70,7 +70,25 @@ namespace Gestión_Biblioteca
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Environment.Exit(0);
+        }
 
+        private void FrmPadre_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("¿Desea salir?", "Confirmación",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+
+            if (resultado.Equals(DialogResult.No))
+            {
+                if (e != null)
+                {
+                    e.Cancel = true;
+                }
+            }
+            else
+            {
+                Environment.Exit(0);
+            }
         }
     }
 }

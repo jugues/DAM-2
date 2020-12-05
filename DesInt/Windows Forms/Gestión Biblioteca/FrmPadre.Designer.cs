@@ -75,14 +75,14 @@ namespace Gestión_Biblioteca
             // altaToolStripMenuItem
             // 
             this.altaToolStripMenuItem.Name = "altaToolStripMenuItem";
-            this.altaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.altaToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.altaToolStripMenuItem.Text = "Alta";
             this.altaToolStripMenuItem.Click += new System.EventHandler(this.altaToolStripMenuItem_Click);
             // 
             // consultaToolStripMenuItem
             // 
             this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
-            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.consultaToolStripMenuItem.Text = "Consulta";
             this.consultaToolStripMenuItem.Click += new System.EventHandler(this.consultaToolStripMenuItem_Click);
             // 
@@ -94,13 +94,13 @@ namespace Gestión_Biblioteca
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(436, 590);
+            this.textBox1.Location = new System.Drawing.Point(485, 36);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -111,7 +111,7 @@ namespace Gestión_Biblioteca
             // 
             this.lblHora.AutoSize = true;
             this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHora.Location = new System.Drawing.Point(444, 598);
+            this.lblHora.Location = new System.Drawing.Point(492, 49);
             this.lblHora.Name = "lblHora";
             this.lblHora.Size = new System.Drawing.Size(92, 16);
             this.lblHora.TabIndex = 3;
@@ -133,6 +133,7 @@ namespace Gestión_Biblioteca
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmPadre";
             this.Text = "Gestión Biblioteca";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPadre_FormClosing);
             this.Load += new System.EventHandler(this.FrmPadre_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

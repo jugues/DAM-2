@@ -34,15 +34,16 @@ namespace Gestión_Biblioteca
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pctbPortada = new System.Windows.Forms.PictureBox();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnCargarFoto = new System.Windows.Forms.Button();
+            this.pctbPortadaAlta = new System.Windows.Forms.PictureBox();
             this.tbTitulo = new System.Windows.Forms.TextBox();
             this.tbAutor = new System.Windows.Forms.TextBox();
             this.tbEditorial = new System.Windows.Forms.TextBox();
             this.cbNuevo = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pctbPortada)).BeginInit();
+            this.filedialogFoto = new System.Windows.Forms.OpenFileDialog();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbPortadaAlta)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -95,40 +96,43 @@ namespace Gestión_Biblioteca
             this.label5.TabIndex = 4;
             this.label5.Text = "Foto de portada";
             // 
-            // button1
+            // btnGuardar
             // 
-            this.button1.Location = new System.Drawing.Point(113, 503);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 32);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnGuardar.Location = new System.Drawing.Point(113, 503);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(85, 32);
+            this.btnGuardar.TabIndex = 5;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
-            // button2
+            // btnLimpiar
             // 
-            this.button2.Location = new System.Drawing.Point(272, 503);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(85, 32);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Limpiar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Location = new System.Drawing.Point(272, 503);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(85, 32);
+            this.btnLimpiar.TabIndex = 6;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
-            // button3
+            // btnCargarFoto
             // 
-            this.button3.Location = new System.Drawing.Point(531, 503);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(85, 32);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Cargar foto";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCargarFoto.Location = new System.Drawing.Point(531, 503);
+            this.btnCargarFoto.Name = "btnCargarFoto";
+            this.btnCargarFoto.Size = new System.Drawing.Size(85, 32);
+            this.btnCargarFoto.TabIndex = 7;
+            this.btnCargarFoto.Text = "Cargar foto";
+            this.btnCargarFoto.UseVisualStyleBackColor = true;
+            this.btnCargarFoto.Click += new System.EventHandler(this.btnCargarFoto_Click);
             // 
-            // pctbPortada
+            // pctbPortadaAlta
             // 
-            this.pctbPortada.Location = new System.Drawing.Point(505, 227);
-            this.pctbPortada.Name = "pctbPortada";
-            this.pctbPortada.Size = new System.Drawing.Size(134, 204);
-            this.pctbPortada.TabIndex = 8;
-            this.pctbPortada.TabStop = false;
+            this.pctbPortadaAlta.Location = new System.Drawing.Point(505, 227);
+            this.pctbPortadaAlta.Name = "pctbPortadaAlta";
+            this.pctbPortadaAlta.Size = new System.Drawing.Size(166, 204);
+            this.pctbPortadaAlta.TabIndex = 8;
+            this.pctbPortadaAlta.TabStop = false;
             // 
             // tbTitulo
             // 
@@ -160,6 +164,11 @@ namespace Gestión_Biblioteca
             this.cbNuevo.TabIndex = 13;
             this.cbNuevo.UseVisualStyleBackColor = true;
             // 
+            // filedialogFoto
+            // 
+            this.filedialogFoto.FileName = "filedialogFoto";
+            this.filedialogFoto.InitialDirectory = "C:\\Users\\Juli";
+            // 
             // FrmAlta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -169,10 +178,10 @@ namespace Gestión_Biblioteca
             this.Controls.Add(this.tbEditorial);
             this.Controls.Add(this.tbAutor);
             this.Controls.Add(this.tbTitulo);
-            this.Controls.Add(this.pctbPortada);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pctbPortadaAlta);
+            this.Controls.Add(this.btnCargarFoto);
+            this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -181,7 +190,7 @@ namespace Gestión_Biblioteca
             this.Name = "FrmAlta";
             this.Text = "FrmAlta";
             this.Load += new System.EventHandler(this.FrmAlta_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pctbPortada)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbPortadaAlta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,13 +203,14 @@ namespace Gestión_Biblioteca
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.PictureBox pctbPortada;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btnCargarFoto;
+        private System.Windows.Forms.PictureBox pctbPortadaAlta;
         private System.Windows.Forms.TextBox tbTitulo;
         private System.Windows.Forms.TextBox tbAutor;
         private System.Windows.Forms.TextBox tbEditorial;
         private System.Windows.Forms.CheckBox cbNuevo;
+        private System.Windows.Forms.OpenFileDialog filedialogFoto;
     }
 }

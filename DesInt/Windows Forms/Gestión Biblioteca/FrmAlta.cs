@@ -29,7 +29,42 @@ namespace Gestión_Biblioteca
 
         private void FrmAlta_Load(object sender, EventArgs e)
         {
+            FormBorderStyle = FormBorderStyle.None;
+        }
 
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            if(tbTitulo.Text != null || tbAutor.Text != null || tbEditorial != null || rutaImagen.Equals(""))
+            {
+                s.Add(new Libro(tbTitulo.Text, tbAutor.Text, tbEditorial.Text, rutaImagen, cbNuevo.Checked));
+
+                limpiar();
+            }
+        }
+
+        public void limpiar()
+        {
+            tbTitulo.Text = "";
+            tbAutor.Text = "";
+            tbEditorial.Text = "";
+            rutaImagen = "";
+            pctbPortadaAlta.Image = null;
+            cbNuevo.Checked = false;
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            limpiar();
+        }
+
+        private void btnCargarFoto_Click(object sender, EventArgs e)
+        {
+            if (!filedialogFoto.ShowDialog().Equals(DialogResult.Cancel))
+            {
+                rutaImagen = filedialogFoto.FileName;
+                Bitmap imagen = new Bitmap(rutaImagen);
+                pctbPortadaAlta.Image = imagen;
+            }
         }
     }
 }

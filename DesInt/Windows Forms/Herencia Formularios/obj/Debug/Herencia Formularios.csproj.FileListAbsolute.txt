@@ -1,0 +1,13 @@
+C:\Users\Juli\source\repos\Herencia Formularios\bin\Debug\Herencia Formularios.exe.config
+C:\Users\Juli\source\repos\Herencia Formularios\bin\Debug\Herencia Formularios.exe
+C:\Users\Juli\source\repos\Herencia Formularios\bin\Debug\Herencia Formularios.pdb
+C:\Users\Juli\source\repos\Herencia Formularios\obj\Debug\Herencia Formularios.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\Herencia Formularios\obj\Debug\Herencia_Formularios.FrmAlta.resources
+C:\Users\Juli\source\repos\Herencia Formularios\obj\Debug\Herencia_Formularios.FrmConsultaList.resources
+C:\Users\Juli\source\repos\Herencia Formularios\obj\Debug\Herencia_Formularios.FrmConsultaTree.resources
+C:\Users\Juli\source\repos\Herencia Formularios\obj\Debug\Herencia_Formularios.FrmPadre.resources
+C:\Users\Juli\source\repos\Herencia Formularios\obj\Debug\Herencia_Formularios.Properties.Resources.resources
+C:\Users\Juli\source\repos\Herencia Formularios\obj\Debug\Herencia Formularios.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\Herencia Formularios\obj\Debug\Herencia Formularios.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\Herencia Formularios\obj\Debug\Herencia Formularios.exe
+C:\Users\Juli\source\repos\Herencia Formularios\obj\Debug\Herencia Formularios.pdb

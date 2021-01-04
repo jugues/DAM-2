@@ -1,0 +1,11 @@
+C:\Users\Juli\source\repos\ExamenRepeticion\bin\Debug\ExamenRepeticion.exe.config
+C:\Users\Juli\source\repos\ExamenRepeticion\bin\Debug\ExamenRepeticion.exe
+C:\Users\Juli\source\repos\ExamenRepeticion\bin\Debug\ExamenRepeticion.pdb
+C:\Users\Juli\source\repos\ExamenRepeticion\obj\Debug\ExamenRepeticion.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\ExamenRepeticion\obj\Debug\ExamenRepeticion.FrmInicio.resources
+C:\Users\Juli\source\repos\ExamenRepeticion\obj\Debug\ExamenRepeticion.FrmContacto.resources
+C:\Users\Juli\source\repos\ExamenRepeticion\obj\Debug\ExamenRepeticion.Properties.Resources.resources
+C:\Users\Juli\source\repos\ExamenRepeticion\obj\Debug\ExamenRepeticion.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\ExamenRepeticion\obj\Debug\ExamenRepeticion.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\ExamenRepeticion\obj\Debug\ExamenRepeticion.exe
+C:\Users\Juli\source\repos\ExamenRepeticion\obj\Debug\ExamenRepeticion.pdb

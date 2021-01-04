@@ -1,0 +1,3 @@
+A,Nieves,699999999,Barcelona
+A,Jaime,699999998,La Coruña
+E,IBM,699999991,Madrid,Paco Gonzalez

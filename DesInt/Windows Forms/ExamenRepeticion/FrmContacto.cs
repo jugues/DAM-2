@@ -107,16 +107,18 @@ namespace ExamenRepeticion
 
         private void tsbEditar_Click(object sender, EventArgs e)
         {
+            Contacto editando;
             foreach (Contacto c in misContactos)
             {
-                if(c.Nombre.Equals(listViewContactos.SelectedItems[0]))
+                string aux = listViewContactos.SelectedItems[0].Text;
+                if (c.Nombre.Equals(aux))
                 {
-
+                    editando = c;
+                    FrmDetalle f = new FrmDetalle(misContactos, editando);
+                    f.Show();
+                    Hide();
                 }
             }
-            FrmDetalle f = new FrmDetalle(misContactos);
-            f.Show();
-            Hide();
         }
     }
 }

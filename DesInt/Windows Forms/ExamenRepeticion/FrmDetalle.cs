@@ -13,14 +13,16 @@ namespace ExamenRepeticion
     public partial class FrmDetalle : Form
     {
         public List<Contacto> contactosEditar = new List<Contacto>();
+        Contacto editando;
         public FrmDetalle()
         {
             InitializeComponent();
         }
 
-        public FrmDetalle(List<Contacto> l)
+        public FrmDetalle(List<Contacto> l, Contacto aEditar)
         {
             contactosEditar = l;
+            editando = aEditar;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

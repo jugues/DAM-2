@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace ExamenRepeticion
 {
-    public partial class FrmContacto : Form
+    public partial class FrmContacto : Form //falta el combobox/menú contextual
     {
         public List<Contacto> misContactos = new List<Contacto>();
         string rutaFichero = "C:\\Users\\Juli\\source\\repos\\ExamenRepeticion\\contactosNuevo.txt";
@@ -23,7 +23,7 @@ namespace ExamenRepeticion
         public FrmContacto(List<Contacto> l)
         {
             InitializeComponent();
-            misContactos = l; //¿bien?
+            misContactos = l; 
             listarContactos();
         }
 
@@ -79,7 +79,7 @@ namespace ExamenRepeticion
 
             while(salir == false)
             {
-                foreach (Contacto c in misContactos) //no está bien del todo; arreglar al final
+                foreach (Contacto c in misContactos) //no está bien del todo; arreglar al final y añadir ciudad
                 {
                     if (c.Nombre.Equals(aBuscar) || c.Contact.Equals(aBuscar))
                     {
@@ -89,17 +89,34 @@ namespace ExamenRepeticion
                         salir = true;
                     }
 
-                    else
+                    /* else
                     {
                         message = "Tu búsqueda no se encuentra en la lista de contactos";
                         caption = "Resultado";
                         MessageBox.Show(message, caption);
                         salir = true;
-                    }
+                    } */
                 }
             }
+        }
 
-            
+        private void tsbBorrar_Click(object sender, EventArgs e) //intentar borrar también de la colección
+        {
+            listViewContactos.Items.Remove(listViewContactos.SelectedItems[0]);
+        }
+
+        private void tsbEditar_Click(object sender, EventArgs e)
+        {
+            foreach (Contacto c in misContactos)
+            {
+                if(c.Nombre.Equals(listViewContactos.SelectedItems[0]))
+                {
+
+                }
+            }
+            FrmDetalle f = new FrmDetalle(misContactos);
+            f.Show();
+            Hide();
         }
     }
 }

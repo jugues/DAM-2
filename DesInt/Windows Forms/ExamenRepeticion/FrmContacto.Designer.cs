@@ -35,7 +35,6 @@ namespace ExamenRepeticion
             this.tsbEditar = new System.Windows.Forms.ToolStripButton();
             this.lblContacto = new System.Windows.Forms.Label();
             this.lblCiudad = new System.Windows.Forms.Label();
-            this.cbCiudad = new System.Windows.Forms.ComboBox();
             this.btnBuscarContacto = new System.Windows.Forms.Button();
             this.listViewContactos = new System.Windows.Forms.ListView();
             this.chNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -44,6 +43,7 @@ namespace ExamenRepeticion
             this.chCiudad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chContacto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tbContacto = new System.Windows.Forms.TextBox();
+            this.tbCiudad = new System.Windows.Forms.TextBox();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,6 +67,7 @@ namespace ExamenRepeticion
             this.tsbBorrar.Size = new System.Drawing.Size(43, 22);
             this.tsbBorrar.Text = "Borrar";
             this.tsbBorrar.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
+            this.tsbBorrar.Click += new System.EventHandler(this.tsbBorrar_Click);
             // 
             // tsbEditar
             // 
@@ -75,6 +76,7 @@ namespace ExamenRepeticion
             this.tsbEditar.Name = "tsbEditar";
             this.tsbEditar.Size = new System.Drawing.Size(57, 22);
             this.tsbEditar.Text = "Editar";
+            this.tsbEditar.Click += new System.EventHandler(this.tsbEditar_Click);
             // 
             // lblContacto
             // 
@@ -95,14 +97,6 @@ namespace ExamenRepeticion
             this.lblCiudad.Size = new System.Drawing.Size(51, 16);
             this.lblCiudad.TabIndex = 2;
             this.lblCiudad.Text = "Ciudad";
-            // 
-            // cbCiudad
-            // 
-            this.cbCiudad.FormattingEnabled = true;
-            this.cbCiudad.Location = new System.Drawing.Point(542, 67);
-            this.cbCiudad.Name = "cbCiudad";
-            this.cbCiudad.Size = new System.Drawing.Size(180, 21);
-            this.cbCiudad.TabIndex = 3;
             // 
             // btnBuscarContacto
             // 
@@ -165,15 +159,22 @@ namespace ExamenRepeticion
             this.tbContacto.Size = new System.Drawing.Size(202, 20);
             this.tbContacto.TabIndex = 7;
             // 
+            // tbCiudad
+            // 
+            this.tbCiudad.Location = new System.Drawing.Point(548, 67);
+            this.tbCiudad.Name = "tbCiudad";
+            this.tbCiudad.Size = new System.Drawing.Size(202, 20);
+            this.tbCiudad.TabIndex = 8;
+            // 
             // FrmContacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tbCiudad);
             this.Controls.Add(this.tbContacto);
             this.Controls.Add(this.listViewContactos);
             this.Controls.Add(this.btnBuscarContacto);
-            this.Controls.Add(this.cbCiudad);
             this.Controls.Add(this.lblCiudad);
             this.Controls.Add(this.lblContacto);
             this.Controls.Add(this.toolStrip1);
@@ -194,7 +195,6 @@ namespace ExamenRepeticion
         private System.Windows.Forms.ToolStripButton tsbEditar;
         private System.Windows.Forms.Label lblContacto;
         private System.Windows.Forms.Label lblCiudad;
-        private System.Windows.Forms.ComboBox cbCiudad;
         private System.Windows.Forms.Button btnBuscarContacto;
         private System.Windows.Forms.ListView listViewContactos;
         private System.Windows.Forms.ColumnHeader chNombre;
@@ -203,5 +203,6 @@ namespace ExamenRepeticion
         private System.Windows.Forms.ColumnHeader chCiudad;
         private System.Windows.Forms.ColumnHeader chContacto;
         private System.Windows.Forms.TextBox tbContacto;
+        private System.Windows.Forms.TextBox tbCiudad;
     }
 }

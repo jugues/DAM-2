@@ -1,0 +1,10 @@
+C:\Users\Juli\source\repos\Menu Contextual\bin\Debug\Menu Contextual.exe.config
+C:\Users\Juli\source\repos\Menu Contextual\bin\Debug\Menu Contextual.exe
+C:\Users\Juli\source\repos\Menu Contextual\bin\Debug\Menu Contextual.pdb
+C:\Users\Juli\source\repos\Menu Contextual\obj\Debug\Menu Contextual.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\Menu Contextual\obj\Debug\Menu_Contextual.Form1.resources
+C:\Users\Juli\source\repos\Menu Contextual\obj\Debug\Menu_Contextual.Properties.Resources.resources
+C:\Users\Juli\source\repos\Menu Contextual\obj\Debug\Menu Contextual.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\Menu Contextual\obj\Debug\Menu Contextual.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\Menu Contextual\obj\Debug\Menu Contextual.exe
+C:\Users\Juli\source\repos\Menu Contextual\obj\Debug\Menu Contextual.pdb

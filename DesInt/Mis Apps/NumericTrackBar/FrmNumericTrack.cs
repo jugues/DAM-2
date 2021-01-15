@@ -48,5 +48,7 @@ namespace NumericTrackBar
             timerBarra.Enabled = true;
             progressBar1.Value = 0;
         }
+
+        //para coger el valor del numeric up down, almacenar en variable = Convert.ToInt32(nud.Value);
     }
 }

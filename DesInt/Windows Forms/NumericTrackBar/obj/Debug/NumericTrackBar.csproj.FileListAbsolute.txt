@@ -1,0 +1,10 @@
+C:\Users\Juli\source\repos\NumericTrackBar\bin\Debug\NumericTrackBar.exe.config
+C:\Users\Juli\source\repos\NumericTrackBar\bin\Debug\NumericTrackBar.exe
+C:\Users\Juli\source\repos\NumericTrackBar\bin\Debug\NumericTrackBar.pdb
+C:\Users\Juli\source\repos\NumericTrackBar\obj\Debug\NumericTrackBar.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\NumericTrackBar\obj\Debug\NumericTrackBar.FrmNumericTrack.resources
+C:\Users\Juli\source\repos\NumericTrackBar\obj\Debug\NumericTrackBar.Properties.Resources.resources
+C:\Users\Juli\source\repos\NumericTrackBar\obj\Debug\NumericTrackBar.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\NumericTrackBar\obj\Debug\NumericTrackBar.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\NumericTrackBar\obj\Debug\NumericTrackBar.exe
+C:\Users\Juli\source\repos\NumericTrackBar\obj\Debug\NumericTrackBar.pdb

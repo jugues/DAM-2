@@ -100,9 +100,20 @@ namespace ExamenRepeticion
             }
         }
 
-        private void tsbBorrar_Click(object sender, EventArgs e) //intentar borrar también de la colección
+        private void tsbBorrar_Click(object sender, EventArgs e) 
         {
-            listViewContactos.Items.Remove(listViewContactos.SelectedItems[0]);
+            if(listViewContactos.SelectedItems.Count > 0)
+            {
+                if(MessageBox.Show("¿Borrar de la colección el elemento seleccionado?", "Eliminar contacto", 
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    for(int i = listViewContactos.SelectedItems.Count -1; i>=0; i--)
+                    {
+                        listViewContactos.Items.Remove(listViewContactos.SelectedItems[i]); //borramos del listview
+                        misContactos.RemoveAt(i); //borramos de la colección
+                    }
+                }
+            }
         }
 
         private void tsbEditar_Click(object sender, EventArgs e)

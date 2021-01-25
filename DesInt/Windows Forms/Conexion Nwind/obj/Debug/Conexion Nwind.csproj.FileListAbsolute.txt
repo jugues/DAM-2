@@ -1,0 +1,9 @@
+C:\Users\Juli\source\repos\Conexion Emple\bin\Debug\Conexion Emple.exe.config
+C:\Users\Juli\source\repos\Conexion Emple\bin\Debug\Conexion Emple.exe
+C:\Users\Juli\source\repos\Conexion Emple\bin\Debug\Conexion Emple.pdb
+C:\Users\Juli\source\repos\Conexion Emple\obj\Debug\Conexion_Emple.Inicio.resources
+C:\Users\Juli\source\repos\Conexion Emple\obj\Debug\Conexion_Emple.Properties.Resources.resources
+C:\Users\Juli\source\repos\Conexion Emple\obj\Debug\Conexion Nwind.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\Conexion Emple\obj\Debug\Conexion Nwind.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\Conexion Emple\obj\Debug\Conexion Emple.exe
+C:\Users\Juli\source\repos\Conexion Emple\obj\Debug\Conexion Emple.pdb

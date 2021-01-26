@@ -1,0 +1,2 @@
+sep 29, 2020 9:56:20 AM pkg_2_6_usoLogger.MyLogger_2_EscribirNumeros_tryCatchResources_Logger <init>
+ADVERTENCIA: Caught ArrayIndexOutOfBoundsException: 50 >= 50

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-29T08:15:12.003342100Z</date>
+  <millis>1611908112003</millis>
+  <nanos>342100</nanos>
+  <sequence>0</sequence>
+  <logger>myLog</logger>
+  <level>WARNING</level>
+  <class>PruebaLogger1</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Probando un warning.</message>
+</record>
+<record>
+  <date>2021-01-29T08:15:12.204432800Z</date>
+  <millis>1611908112204</millis>
+  <nanos>432800</nanos>
+  <sequence>1</sequence>
+  <logger>myLog</logger>
+  <level>SEVERE</level>
+  <class>PruebaLogger1</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Probando un severe.</message>
+</record>
+<record>
+  <date>2021-01-29T08:15:12.206441200Z</date>
+  <millis>1611908112206</millis>
+  <nanos>441200</nanos>
+  <sequence>2</sequence>
+  <logger>myLog</logger>
+  <level>INFO</level>
+  <class>PruebaLogger1</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Mensaje de info.</message>
+</record>
+</log>

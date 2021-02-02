@@ -1,0 +1,1546 @@
+<resumen>                                                                       
+<gama id="Aromáticas">                                                         
+<descripcion>Plantas aromáticas</descripcion>                                  
+<producto id="AR-001">                                                          
+<nombre> Ajedrea</nombre>                                                       
+<detalle pedido="9" nlinea="3">                                                 
+<cantidad>80</cantidad>                                                         
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="40" nlinea="1">                                                
+<cantidad>4</cantidad>                                                          
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="90" nlinea="1">                                                
+<cantidad>19</cantidad>                                                         
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="116" nlinea="2">                                               
+<cantidad>32</cantidad>                                                         
+<precio>1</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="AR-002">                                                          
+<nombre> Lavándula Dentata</nombre>                                            
+<detalle pedido="23" nlinea="4">                                                
+<cantidad>110</cantidad>                                                        
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="40" nlinea="2">                                                
+<cantidad>8</cantidad>                                                          
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="90" nlinea="2">                                                
+<cantidad>10</cantidad>                                                         
+<precio>1</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="AR-003">                                                          
+<nombre> Mejorana</nombre>                                                      
+<detalle pedido="41" nlinea="1">                                                
+<cantidad>5</cantidad>                                                          
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="90" nlinea="3">                                                
+<cantidad>12</cantidad>                                                         
+<precio>1</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="AR-004">                                                          
+<nombre> Melissa </nombre>                                                      
+<detalle pedido="30" nlinea="6">                                                
+<cantidad>10</cantidad>                                                         
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="41" nlinea="2">                                                
+<cantidad>5</cantidad>                                                          
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="128" nlinea="1">                                               
+<cantidad>15</cantidad>                                                         
+<precio>1</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="AR-005">                                                          
+<nombre> Mentha Sativa</nombre>                                                 
+<detalle pedido="42" nlinea="1">                                                
+<cantidad>3</cantidad>                                                          
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="116" nlinea="5">                                               
+<cantidad>18</cantidad>                                                         
+<precio>1</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="AR-006">                                                          
+<nombre> Petrosilium Hortense (Peregil)</nombre>                                
+<detalle pedido="11" nlinea="3">                                                
+<cantidad>180</cantidad>                                                        
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="42" nlinea="2">                                                
+<cantidad>1</cantidad>                                                          
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="75" nlinea="2">                                                
+<cantidad>60</cantidad>                                                         
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="101" nlinea="1">                                               
+<cantidad>50</cantidad>                                                         
+<precio>1</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="AR-007">                                                          
+<nombre> Salvia Mix</nombre>                                                    
+<detalle pedido="43" nlinea="1">                                                
+<cantidad>9</cantidad>                                                          
+<precio>1</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="AR-010">                                                          
+<nombre> Santolina Chamaecyparys</nombre>                                       
+<detalle pedido="45" nlinea="2">                                                
+<cantidad>4</cantidad>                                                          
+<precio>1</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="110" nlinea="3">                                               
+<cantidad>6</cantidad>                                                          
+<precio>1</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+</gama>                                                                         
+<gama id="Frutales">                                                            
+<descripcion>ÿrboles pequeños de producción frutal</descripcion>             
+<producto id="FR-1">                                                            
+<nombre> Expositor Cítricos Mix</nombre>                                       
+<detalle pedido="24" nlinea="4">                                                
+<cantidad>4</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="36" nlinea="3">                                                
+<cantidad>2</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="46" nlinea="1">                                                
+<cantidad>4</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="110" nlinea="1">                                               
+<cantidad>14</cantidad>                                                         
+<precio>7</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-10">                                                           
+<nombre> Limonero 2 años injerto</nombre>                                      
+<detalle pedido="46" nlinea="2">                                                
+<cantidad>8</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="95" nlinea="2">                                                
+<cantidad>9</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-100">                                                          
+<nombre> Nectarina</nombre>                                                     
+<detalle pedido="14" nlinea="2">                                                
+<cantidad>8</cantidad>                                                          
+<precio>11</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="47" nlinea="1">                                                
+<cantidad>9</cantidad>                                                          
+<precio>11</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="54" nlinea="2">                                                
+<cantidad>45</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="91" nlinea="1">                                                
+<cantidad>52</cantidad>                                                         
+<precio>11</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-101">                                                          
+<nombre> Nogal</nombre>                                                         
+<detalle pedido="47" nlinea="2">                                                
+<cantidad>5</cantidad>                                                          
+<precio>13</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="91" nlinea="2">                                                
+<cantidad>14</cantidad>                                                         
+<precio>13</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-102">                                                          
+<nombre> Olea-Olivos</nombre>                                                   
+<detalle pedido="31" nlinea="1">                                                
+<cantidad>1</cantidad>                                                          
+<precio>20</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="48" nlinea="1">                                                
+<cantidad>1</cantidad>                                                          
+<precio>18</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="91" nlinea="3">                                                
+<cantidad>35</cantidad>                                                         
+<precio>18</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-103">                                                          
+<nombre> Olea-Olivos</nombre>                                                   
+<detalle pedido="48" nlinea="2">                                                
+<cantidad>1</cantidad>                                                          
+<precio>25</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-105">                                                          
+<nombre> Olea-Olivos</nombre>                                                   
+<detalle pedido="37" nlinea="1">                                                
+<cantidad>4</cantidad>                                                          
+<precio>70</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-106">                                                          
+<nombre> Peral</nombre>                                                         
+<detalle pedido="8" nlinea="1">                                                 
+<cantidad>3</cantidad>                                                          
+<precio>11</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="9" nlinea="1">                                                 
+<cantidad>80</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-107">                                                          
+<nombre> Peral</nombre>                                                         
+<detalle pedido="23" nlinea="3">                                                
+<cantidad>50</cantidad>                                                         
+<precio>22</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-108">                                                          
+<nombre> Peral</nombre>                                                         
+<detalle pedido="8" nlinea="2">                                                 
+<cantidad>1</cantidad>                                                          
+<precio>32</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="30" nlinea="2">                                                
+<cantidad>2</cantidad>                                                          
+<precio>32</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="89" nlinea="2">                                                
+<cantidad>3</cantidad>                                                          
+<precio>32</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="92" nlinea="1">                                                
+<cantidad>12</cantidad>                                                         
+<precio>23</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-11">                                                           
+<nombre> Limonero 30/40</nombre>                                                
+<detalle pedido="8" nlinea="3">                                                 
+<cantidad>10</cantidad>                                                         
+<precio>100</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="13" nlinea="3">                                                
+<cantidad>5</cantidad>                                                          
+<precio>100</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="28" nlinea="3">                                                
+<cantidad>8</cantidad>                                                          
+<precio>99</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="80" nlinea="3">                                                
+<cantidad>40</cantidad>                                                         
+<precio>100</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="92" nlinea="2">                                                
+<cantidad>20</cantidad>                                                         
+<precio>100</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="94" nlinea="3">                                                
+<cantidad>33</cantidad>                                                         
+<precio>100</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="107" nlinea="1">                                               
+<cantidad>15</cantidad>                                                         
+<precio>100</precio>                                                            
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-15">                                                           
+<nombre> Calamondin Copa </nombre>                                              
+<detalle pedido="26" nlinea="3">                                                
+<cantidad>9</cantidad>                                                          
+<precio>25</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-16">                                                           
+<nombre> Calamondin Copa EXTRA Con FRUTA</nombre>                               
+<detalle pedido="110" nlinea="2">                                               
+<cantidad>1</cantidad>                                                          
+<precio>45</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-17">                                                           
+<nombre> Rosal bajo 1Âª -En maceta-inicio brotación</nombre>                 
+<detalle pedido="33" nlinea="4">                                                
+<cantidad>423</cantidad>                                                        
+<precio>2</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-18">                                                           
+<nombre> ROSAL TREPADOR</nombre>                                                
+<detalle pedido="21" nlinea="1">                                                
+<cantidad>22</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="54" nlinea="1">                                                
+<cantidad>5</cantidad>                                                          
+<precio>4</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-2">                                                            
+<nombre> Naranjo -Plantón joven 1 año injerto</nombre>                        
+<detalle pedido="53" nlinea="1">                                                
+<cantidad>1</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-22">                                                           
+<nombre> Pitimini rojo</nombre>                                                 
+<detalle pedido="18" nlinea="1">                                                
+<cantidad>2</cantidad>                                                          
+<precio>4</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="109" nlinea="5">                                               
+<cantidad>8</cantidad>                                                          
+<precio>4</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-23">                                                           
+<nombre> Rosal copa </nombre>                                                   
+<detalle pedido="19" nlinea="4">                                                
+<cantidad>6</cantidad>                                                          
+<precio>8</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="24" nlinea="2">                                                
+<cantidad>2</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-29">                                                           
+<nombre> Cerezo Napoleón</nombre>                                              
+<detalle pedido="33" nlinea="3">                                                
+<cantidad>120</cantidad>                                                        
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-3">                                                            
+<nombre> Naranjo 2 años injerto</nombre>                                       
+<detalle pedido="34" nlinea="4">                                                
+<cantidad>56</cantidad>                                                         
+<precio>7</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="89" nlinea="6">                                                
+<cantidad>15</cantidad>                                                         
+<precio>7</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-31">                                                           
+<nombre> Ciruelo Santa Rosa</nombre>                                            
+<detalle pedido="4" nlinea="7">                                                 
+<cantidad>12</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-33">                                                           
+<nombre> Ciruelo Friar</nombre>                                                 
+<detalle pedido="98" nlinea="4">                                                
+<cantidad>14</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="116" nlinea="3">                                               
+<cantidad>13</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-34">                                                           
+<nombre> Ciruelo Reina C. De Ollins</nombre>                                    
+<detalle pedido="4" nlinea="6">                                                 
+<cantidad>42</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-36">                                                           
+<nombre> Granado Mollar de Elche</nombre>                                       
+<detalle pedido="16" nlinea="2">                                                
+<cantidad>10</cantidad>                                                         
+<precio>9</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="80" nlinea="2">                                                
+<cantidad>47</cantidad>                                                         
+<precio>9</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="109" nlinea="3">                                               
+<cantidad>12</cantidad>                                                         
+<precio>9</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-37">                                                           
+<nombre> Higuera Napolitana</nombre>                                            
+<detalle pedido="17" nlinea="2">                                                
+<cantidad>5</cantidad>                                                          
+<precio>9</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-4">                                                            
+<nombre> Naranjo calibre 8/10</nombre>                                          
+<detalle pedido="2" nlinea="6">                                                 
+<cantidad>3</cantidad>                                                          
+<precio>29</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="31" nlinea="2">                                                
+<cantidad>6</cantidad>                                                          
+<precio>29</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="94" nlinea="2">                                                
+<cantidad>79</cantidad>                                                         
+<precio>29</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-40">                                                           
+<nombre> Manzano Starking Delicious</nombre>                                    
+<detalle pedido="2" nlinea="7">                                                 
+<cantidad>7</cantidad>                                                          
+<precio>8</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="4" nlinea="8">                                                 
+<cantidad>42</cantidad>                                                         
+<precio>9</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-41">                                                           
+<nombre> Manzano Reineta</nombre>                                               
+<detalle pedido="97" nlinea="1">                                                
+<cantidad>12</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-42">                                                           
+<nombre> Manzano Golden Delicious</nombre>                                      
+<detalle pedido="89" nlinea="4">                                                
+<cantidad>12</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-43">                                                           
+<nombre> Membrillero Gigante de Wranja</nombre>                                 
+<detalle pedido="96" nlinea="1">                                                
+<cantidad>6</cantidad>                                                          
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-45">                                                           
+<nombre> Melocotonero Amarillo de Agosto</nombre>                               
+<detalle pedido="109" nlinea="4">                                               
+<cantidad>14</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-47">                                                           
+<nombre> Melocotonero Paraguayo</nombre>                                        
+<detalle pedido="35" nlinea="3">                                                
+<cantidad>55</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-48">                                                           
+<nombre> Nogal Común</nombre>                                                  
+<detalle pedido="3" nlinea="6">                                                 
+<cantidad>120</cantidad>                                                        
+<precio>9</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-53">                                                           
+<nombre> Peral Blanq. de Aranjuez</nombre>                                      
+<detalle pedido="21" nlinea="2">                                                
+<cantidad>3</cantidad>                                                          
+<precio>8</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="78" nlinea="2">                                                
+<cantidad>25</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="103" nlinea="2">                                               
+<cantidad>12</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="108" nlinea="1">                                               
+<cantidad>53</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-54">                                                           
+<nombre> Níspero Tanaca</nombre>                                               
+<detalle pedido="93" nlinea="1">                                                
+<cantidad>25</cantidad>                                                         
+<precio>9</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="97" nlinea="2">                                                
+<cantidad>14</cantidad>                                                         
+<precio>9</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-56">                                                           
+<nombre> Nectarina</nombre>                                                     
+<detalle pedido="98" nlinea="3">                                                
+<cantidad>16</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-57">                                                           
+<nombre> Kaki Rojo Brillante</nombre>                                           
+<detalle pedido="37" nlinea="2">                                                
+<cantidad>203</cantidad>                                                        
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-58">                                                           
+<nombre> Albaricoquero</nombre>                                                 
+<detalle pedido="93" nlinea="2">                                                
+<cantidad>51</cantidad>                                                         
+<precio>11</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-6">                                                            
+<nombre> Mandarino 2 años injerto</nombre>                                     
+<detalle pedido="96" nlinea="4">                                                
+<cantidad>16</cantidad>                                                         
+<precio>7</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-60">                                                           
+<nombre> Albaricoquero</nombre>                                                 
+<detalle pedido="93" nlinea="3">                                                
+<cantidad>3</cantidad>                                                          
+<precio>32</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="98" nlinea="1">                                                
+<cantidad>8</cantidad>                                                          
+<precio>32</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-64">                                                           
+<nombre> Cerezo</nombre>                                                        
+<detalle pedido="17" nlinea="4">                                                
+<cantidad>5</cantidad>                                                          
+<precio>22</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-66">                                                           
+<nombre> Cerezo</nombre>                                                        
+<detalle pedido="89" nlinea="1">                                                
+<cantidad>5</cantidad>                                                          
+<precio>49</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-67">                                                           
+<nombre> Cerezo</nombre>                                                        
+<detalle pedido="1" nlinea="3">                                                 
+<cantidad>10</cantidad>                                                         
+<precio>70</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="74" nlinea="1">                                                
+<cantidad>15</cantidad>                                                         
+<precio>70</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-69">                                                           
+<nombre> Cerezo</nombre>                                                        
+<detalle pedido="9" nlinea="2">                                                 
+<cantidad>15</cantidad>                                                         
+<precio>91</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="57" nlinea="4">                                                
+<cantidad>6</cantidad>                                                          
+<precio>91</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-7">                                                            
+<nombre> Mandarino calibre 8/10</nombre>                                        
+<detalle pedido="34" nlinea="3">                                                
+<cantidad>12</cantidad>                                                         
+<precio>29</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-71">                                                           
+<nombre> Ciruelo</nombre>                                                       
+<detalle pedido="96" nlinea="3">                                                
+<cantidad>10</cantidad>                                                         
+<precio>22</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-72">                                                           
+<nombre> Ciruelo</nombre>                                                       
+<detalle pedido="30" nlinea="5">                                                
+<cantidad>4</cantidad>                                                          
+<precio>31</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-75">                                                           
+<nombre> Granado</nombre>                                                       
+<detalle pedido="19" nlinea="2">                                                
+<cantidad>1</cantidad>                                                          
+<precio>32</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="95" nlinea="1">                                                
+<cantidad>6</cantidad>                                                          
+<precio>32</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-77">                                                           
+<nombre> Granado</nombre>                                                       
+<detalle pedido="25" nlinea="1">                                                
+<cantidad>15</cantidad>                                                         
+<precio>69</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-78">                                                           
+<nombre> Higuera</nombre>                                                       
+<detalle pedido="117" nlinea="1">                                               
+<cantidad>2</cantidad>                                                          
+<precio>15</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-79">                                                           
+<nombre> Higuera</nombre>                                                       
+<detalle pedido="54" nlinea="4">                                                
+<cantidad>3</cantidad>                                                          
+<precio>22</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="76" nlinea="3">                                                
+<cantidad>40</cantidad>                                                         
+<precio>22</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-8">                                                            
+<nombre> Limonero -Plantón joven</nombre>                                      
+<detalle pedido="98" nlinea="5">                                                
+<cantidad>18</cantidad>                                                         
+<precio>6</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-80">                                                           
+<nombre> Higuera</nombre>                                                       
+<detalle pedido="117" nlinea="3">                                               
+<cantidad>1</cantidad>                                                          
+<precio>32</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-81">                                                           
+<nombre> Higuera</nombre>                                                       
+<detalle pedido="57" nlinea="3">                                                
+<cantidad>3</cantidad>                                                          
+<precio>49</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-82">                                                           
+<nombre> Higuera</nombre>                                                       
+<detalle pedido="10" nlinea="2">                                                
+<cantidad>5</cantidad>                                                          
+<precio>70</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="29" nlinea="4">                                                
+<cantidad>4</cantidad>                                                          
+<precio>70</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="95" nlinea="3">                                                
+<cantidad>5</cantidad>                                                          
+<precio>70</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-84">                                                           
+<nombre> Kaki</nombre>                                                          
+<detalle pedido="15" nlinea="3">                                                
+<cantidad>4</cantidad>                                                          
+<precio>13</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="19" nlinea="1">                                                
+<cantidad>5</cantidad>                                                          
+<precio>13</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="57" nlinea="1">                                                
+<cantidad>2</cantidad>                                                          
+<precio>13</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-85">                                                           
+<nombre> Kaki</nombre>                                                          
+<detalle pedido="23" nlinea="2">                                                
+<cantidad>4</cantidad>                                                          
+<precio>70</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="53" nlinea="3">                                                
+<cantidad>1</cantidad>                                                          
+<precio>70</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="78" nlinea="3">                                                
+<cantidad>56</cantidad>                                                         
+<precio>70</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="98" nlinea="2">                                                
+<cantidad>6</cantidad>                                                          
+<precio>70</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="104" nlinea="1">                                               
+<cantidad>9</cantidad>                                                          
+<precio>70</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-86">                                                           
+<nombre> Manzano</nombre>                                                       
+<detalle pedido="53" nlinea="2">                                                
+<cantidad>2</cantidad>                                                          
+<precio>11</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-87">                                                           
+<nombre> Manzano</nombre>                                                       
+<detalle pedido="75" nlinea="3">                                                
+<cantidad>24</cantidad>                                                         
+<precio>22</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="76" nlinea="4">                                                
+<cantidad>24</cantidad>                                                         
+<precio>22</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="89" nlinea="3">                                                
+<cantidad>4</cantidad>                                                          
+<precio>22</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="100" nlinea="1">                                               
+<cantidad>20</cantidad>                                                         
+<precio>22</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-89">                                                           
+<nombre> Manzano</nombre>                                                       
+<detalle pedido="30" nlinea="1">                                                
+<cantidad>10</cantidad>                                                         
+<precio>45</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-9">                                                            
+<nombre> Limonero calibre 8/10</nombre>                                         
+<detalle pedido="25" nlinea="3">                                                
+<cantidad>4</cantidad>                                                          
+<precio>30</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="29" nlinea="1">                                                
+<cantidad>4</cantidad>                                                          
+<precio>28</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-90">                                                           
+<nombre> Níspero</nombre>                                                      
+<detalle pedido="96" nlinea="2">                                                
+<cantidad>4</cantidad>                                                          
+<precio>70</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-91">                                                           
+<nombre> Níspero</nombre>                                                      
+<detalle pedido="10" nlinea="1">                                                
+<cantidad>30</cantidad>                                                         
+<precio>75</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="FR-94">                                                           
+<nombre> Melocotonero</nombre>                                                  
+<detalle pedido="25" nlinea="2">                                                
+<cantidad>10</cantidad>                                                         
+<precio>30</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="29" nlinea="5">                                                
+<cantidad>20</cantidad>                                                         
+<precio>31</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="57" nlinea="2">                                                
+<cantidad>6</cantidad>                                                          
+<precio>9</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="76" nlinea="1">                                                
+<cantidad>35</cantidad>                                                         
+<precio>9</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="100" nlinea="2">                                               
+<cantidad>40</cantidad>                                                         
+<precio>9</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+</gama>                                                                         
+<gama id="Herramientas">                                                        
+<descripcion>Herramientas para todo tipo de acción</descripcion>               
+<producto id="11679">                                                           
+<nombre> Sierra de Poda 400MM</nombre>                                          
+<detalle pedido="13" nlinea="1">                                                
+<cantidad>5</cantidad>                                                          
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="17" nlinea="1">                                                
+<cantidad>5</cantidad>                                                          
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="20" nlinea="1">                                                
+<cantidad>14</cantidad>                                                         
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="32" nlinea="4">                                                
+<cantidad>1</cantidad>                                                          
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="38" nlinea="1">                                                
+<cantidad>5</cantidad>                                                          
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="54" nlinea="3">                                                
+<cantidad>3</cantidad>                                                          
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="94" nlinea="1">                                                
+<cantidad>12</cantidad>                                                         
+<precio>14</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="21636">                                                           
+<nombre> Pala</nombre>                                                          
+<detalle pedido="13" nlinea="2">                                                
+<cantidad>12</cantidad>                                                         
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="21" nlinea="3">                                                
+<cantidad>5</cantidad>                                                          
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="32" nlinea="5">                                                
+<cantidad>4</cantidad>                                                          
+<precio>15</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="35" nlinea="4">                                                
+<cantidad>12</cantidad>                                                         
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="38" nlinea="2">                                                
+<cantidad>2</cantidad>                                                          
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="116" nlinea="1">                                               
+<cantidad>5</cantidad>                                                          
+<precio>14</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="22225">                                                           
+<nombre> Rastrillo de Jardín</nombre>                                          
+<detalle pedido="17" nlinea="3">                                                
+<cantidad>5</cantidad>                                                          
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="18" nlinea="2">                                                
+<cantidad>4</cantidad>                                                          
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="24" nlinea="1">                                                
+<cantidad>3</cantidad>                                                          
+<precio>15</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="32" nlinea="3">                                                
+<cantidad>1</cantidad>                                                          
+<precio>15</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="39" nlinea="1">                                                
+<cantidad>3</cantidad>                                                          
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="77" nlinea="2">                                                
+<cantidad>34</cantidad>                                                         
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="102" nlinea="2">                                               
+<cantidad>32</cantidad>                                                         
+<precio>12</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="30310">                                                           
+<nombre> Azadón</nombre>                                                       
+<detalle pedido="16" nlinea="1">                                                
+<cantidad>12</cantidad>                                                         
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="19" nlinea="5">                                                
+<cantidad>9</cantidad>                                                          
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="20" nlinea="2">                                                
+<cantidad>8</cantidad>                                                          
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="36" nlinea="2">                                                
+<cantidad>4</cantidad>                                                          
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="39" nlinea="2">                                                
+<cantidad>6</cantidad>                                                          
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="77" nlinea="1">                                                
+<cantidad>15</cantidad>                                                         
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="102" nlinea="1">                                               
+<cantidad>23</cantidad>                                                         
+<precio>12</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="107" nlinea="2">                                               
+<cantidad>143</cantidad>                                                        
+<precio>12</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+</gama>                                                                         
+<gama id="Ornamentales">                                                        
+<descripcion>Plantas vistosas para la decoración del jardín</descripcion>     
+<producto id="OR-101">                                                          
+<nombre> Expositor Mimosa Semilla Mix</nombre>                                  
+<detalle pedido="15" nlinea="2">                                                
+<cantidad>2</cantidad>                                                          
+<precio>6</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="27" nlinea="2">                                                
+<cantidad>22</cantidad>                                                         
+<precio>6</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-102">                                                          
+<nombre> Mimosa Semilla Bayleyana  </nombre>                                    
+<detalle pedido="27" nlinea="3">                                                
+<cantidad>22</cantidad>                                                         
+<precio>6</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="58" nlinea="3">                                                
+<cantidad>65</cantidad>                                                         
+<precio>18</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-104">                                                          
+<nombre> Mimosa Semilla Cyanophylla    </nombre>                                
+<detalle pedido="109" nlinea="1">                                               
+<cantidad>20</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-115">                                                          
+<nombre> Forsytia Intermedia \"Lynwood\"</nombre>                               
+<detalle pedido="55" nlinea="1">                                                
+<cantidad>9</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-116">                                                          
+<nombre> Hibiscus Syriacus  \"Diana\" -Blanco Puro</nombre>                     
+<detalle pedido="53" nlinea="4">                                                
+<cantidad>6</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="54" nlinea="6">                                                
+<cantidad>8</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-119">                                                          
+<nombre> Laurus Nobilis Arbusto - Ramificado Bajo</nombre>                      
+<detalle pedido="109" nlinea="2">                                               
+<cantidad>10</cantidad>                                                         
+<precio>5</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-120">                                                          
+<nombre> Lonicera Nitida </nombre>                                              
+<detalle pedido="30" nlinea="4">                                                
+<cantidad>5</cantidad>                                                          
+<precio>5</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-122">                                                          
+<nombre> Lonicera Pileata</nombre>                                              
+<detalle pedido="3" nlinea="4">                                                 
+<cantidad>32</cantidad>                                                         
+<precio>5</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-123">                                                          
+<nombre> Philadelphus \"Virginal\"</nombre>                                     
+<detalle pedido="3" nlinea="5">                                                 
+<cantidad>11</cantidad>                                                         
+<precio>5</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="54" nlinea="5">                                                
+<cantidad>3</cantidad>                                                          
+<precio>5</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-125">                                                          
+<nombre> Viburnum Tinus \"Eve Price\"</nombre>                                  
+<detalle pedido="109" nlinea="6">                                               
+<cantidad>3</cantidad>                                                          
+<precio>5</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-127">                                                          
+<nombre> Camelia japonica</nombre>                                              
+<detalle pedido="1" nlinea="1">                                                 
+<cantidad>40</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-128">                                                          
+<nombre> Camelia japonica ejemplar</nombre>                                     
+<detalle pedido="32" nlinea="2">                                                
+<cantidad>29</cantidad>                                                         
+<precio>100</precio>                                                            
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-129">                                                          
+<nombre> Camelia japonica ejemplar</nombre>                                     
+<detalle pedido="29" nlinea="2">                                                
+<cantidad>2</cantidad>                                                          
+<precio>111</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="56" nlinea="5">                                                
+<cantidad>1</cantidad>                                                          
+<precio>115</precio>                                                            
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-130">                                                          
+<nombre> Callistemom COPA</nombre>                                              
+<detalle pedido="56" nlinea="6">                                                
+<cantidad>10</cantidad>                                                         
+<precio>18</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="109" nlinea="7">                                               
+<cantidad>2</cantidad>                                                          
+<precio>18</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-136">                                                          
+<nombre> Nerium oleander ARBOL Calibre 8/10</nombre>                            
+<detalle pedido="17" nlinea="5">                                                
+<cantidad>5</cantidad>                                                          
+<precio>18</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="80" nlinea="1">                                                
+<cantidad>75</cantidad>                                                         
+<precio>18</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="106" nlinea="2">                                               
+<cantidad>47</cantidad>                                                         
+<precio>18</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-139">                                                          
+<nombre> Landora Amarillo, Rose Gaujard bicolor blanco-rojo</nombre>            
+<detalle pedido="58" nlinea="1">                                                
+<cantidad>80</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-140">                                                          
+<nombre> Kordes Perfect bicolor rojo-amarillo, Roundelay rojo fuerte</nombre>   
+<detalle pedido="2" nlinea="3">                                                 
+<cantidad>50</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-141">                                                          
+<nombre> Pitimini rojo</nombre>                                                 
+<detalle pedido="1" nlinea="2">                                                 
+<cantidad>25</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="2" nlinea="2">                                                 
+<cantidad>20</cantidad>                                                         
+<precio>5</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-146">                                                          
+<nombre> Bougamvillea Sanderiana Tutor</nombre>                                 
+<detalle pedido="117" nlinea="2">                                               
+<cantidad>17</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-147">                                                          
+<nombre> Bougamvillea Sanderiana Tutor</nombre>                                 
+<detalle pedido="36" nlinea="4">                                                
+<cantidad>6</cantidad>                                                          
+<precio>7</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-150">                                                          
+<nombre> Bougamvillea roja, naranja</nombre>                                    
+<detalle pedido="128" nlinea="2">                                               
+<cantidad>18</cantidad>                                                         
+<precio>2</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-152">                                                          
+<nombre> Expositor ÿrboles clima continental</nombre>                          
+<detalle pedido="4" nlinea="5">                                                 
+<cantidad>3</cantidad>                                                          
+<precio>6</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-155">                                                          
+<nombre> Acer Negundo  </nombre>                                                
+<detalle pedido="4" nlinea="3">                                                 
+<cantidad>4</cantidad>                                                          
+<precio>6</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-156">                                                          
+<nombre> Acer platanoides  </nombre>                                            
+<detalle pedido="4" nlinea="4">                                                 
+<cantidad>17</cantidad>                                                         
+<precio>9</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="15" nlinea="1">                                                
+<cantidad>6</cantidad>                                                          
+<precio>10</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="97" nlinea="3">                                                
+<cantidad>10</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-157">                                                          
+<nombre> Acer Pseudoplatanus </nombre>                                          
+<detalle pedido="4" nlinea="2">                                                 
+<cantidad>38</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="75" nlinea="1">                                                
+<cantidad>46</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="78" nlinea="4">                                                
+<cantidad>42</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="89" nlinea="5">                                                
+<cantidad>8</cantidad>                                                          
+<precio>10</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="99" nlinea="2">                                                
+<cantidad>15</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="104" nlinea="2">                                               
+<cantidad>113</cantidad>                                                        
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-159">                                                          
+<nombre> Brachychiton Discolor  </nombre>                                       
+<detalle pedido="2" nlinea="5">                                                 
+<cantidad>12</cantidad>                                                         
+<precio>6</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="18" nlinea="3">                                                
+<cantidad>10</cantidad>                                                         
+<precio>6</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-160">                                                          
+<nombre> Brachychiton Rupestris</nombre>                                        
+<detalle pedido="29" nlinea="3">                                                
+<cantidad>10</cantidad>                                                         
+<precio>9</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-165">                                                          
+<nombre> Erytrina Kafra</nombre>                                                
+<detalle pedido="35" nlinea="2">                                                
+<cantidad>3</cantidad>                                                          
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-168">                                                          
+<nombre> Eucalyptus Ficifolia   </nombre>                                       
+<detalle pedido="54" nlinea="7">                                                
+<cantidad>2</cantidad>                                                          
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-172">                                                          
+<nombre> Lagunaria patersonii  calibre 8/10</nombre>                            
+<detalle pedido="34" nlinea="1">                                                
+<cantidad>20</cantidad>                                                         
+<precio>18</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="58" nlinea="2">                                                
+<cantidad>69</cantidad>                                                         
+<precio>15</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-174">                                                          
+<nombre> Morus Alba  calibre 8/10</nombre>                                      
+<detalle pedido="34" nlinea="2">                                                
+<cantidad>24</cantidad>                                                         
+<precio>18</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-176">                                                          
+<nombre> Prunus pisardii  </nombre>                                             
+<detalle pedido="37" nlinea="3">                                                
+<cantidad>38</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-177">                                                          
+<nombre> Robinia Pseudoacacia Casque Rouge   </nombre>                          
+<detalle pedido="58" nlinea="4">                                                
+<cantidad>150</cantidad>                                                        
+<precio>15</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-179">                                                          
+<nombre> Sesbania Punicea   </nombre>                                           
+<detalle pedido="56" nlinea="3">                                                
+<cantidad>1</cantidad>                                                          
+<precio>6</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="117" nlinea="4">                                               
+<cantidad>4</cantidad>                                                          
+<precio>6</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-181">                                                          
+<nombre> Tamarix  Ramosissima Pink Cascade   </nombre>                          
+<detalle pedido="35" nlinea="1">                                                
+<cantidad>36</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-186">                                                          
+<nombre> Sasa palmata </nombre>                                                 
+<detalle pedido="27" nlinea="1">                                                
+<cantidad>40</cantidad>                                                         
+<precio>6</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-188">                                                          
+<nombre> Sasa palmata </nombre>                                                 
+<detalle pedido="26" nlinea="1">                                                
+<cantidad>4</cantidad>                                                          
+<precio>25</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-193">                                                          
+<nombre> Phylostachys biseti</nombre>                                           
+<detalle pedido="32" nlinea="1">                                                
+<cantidad>5</cantidad>                                                          
+<precio>20</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-196">                                                          
+<nombre> Cedrus Deodara </nombre>                                               
+<detalle pedido="56" nlinea="4">                                                
+<cantidad>3</cantidad>                                                          
+<precio>10</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="76" nlinea="2">                                                
+<cantidad>25</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-200">                                                          
+<nombre> Juniperus horizontalis Wiltonii</nombre>                               
+<detalle pedido="116" nlinea="4">                                               
+<cantidad>10</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-203">                                                          
+<nombre> Pinus Canariensis</nombre>                                             
+<detalle pedido="15" nlinea="4">                                                
+<cantidad>9</cantidad>                                                          
+<precio>10</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="36" nlinea="5">                                                
+<cantidad>1</cantidad>                                                          
+<precio>12</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-207">                                                          
+<nombre> Tuja Occidentalis Woodwardii</nombre>                                  
+<detalle pedido="56" nlinea="2">                                                
+<cantidad>4</cantidad>                                                          
+<precio>4</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-208">                                                          
+<nombre> Tuja orientalis \"Aurea nana\"</nombre>                                
+<detalle pedido="19" nlinea="3">                                                
+<cantidad>20</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="78" nlinea="1">                                                
+<cantidad>30</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="81" nlinea="1">                                                
+<cantidad>30</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="83" nlinea="1">                                                
+<cantidad>30</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="103" nlinea="1">                                               
+<cantidad>52</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="108" nlinea="2">                                               
+<cantidad>59</cantidad>                                                         
+<precio>4</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-209">                                                          
+<nombre> Archontophoenix Cunninghamiana</nombre>                                
+<detalle pedido="51" nlinea="1">                                                
+<cantidad>50</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-210">                                                          
+<nombre> Beucarnea Recurvata</nombre>                                           
+<detalle pedido="51" nlinea="2">                                                
+<cantidad>80</cantidad>                                                         
+<precio>39</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-211">                                                          
+<nombre> Beucarnea Recurvata</nombre>                                           
+<detalle pedido="51" nlinea="3">                                                
+<cantidad>70</cantidad>                                                         
+<precio>59</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-213">                                                          
+<nombre> Bismarckia Nobilis</nombre>                                            
+<detalle pedido="3" nlinea="1">                                                 
+<cantidad>30</cantidad>                                                         
+<precio>266</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="28" nlinea="2">                                                
+<cantidad>3</cantidad>                                                          
+<precio>266</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="55" nlinea="2">                                                
+<cantidad>2</cantidad>                                                          
+<precio>266</precio>                                                            
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-214">                                                          
+<nombre> Brahea Armata</nombre>                                                 
+<detalle pedido="33" nlinea="2">                                                
+<cantidad>212</cantidad>                                                        
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-217">                                                          
+<nombre> Brahea Edulis</nombre>                                                 
+<detalle pedido="3" nlinea="2">                                                 
+<cantidad>15</cantidad>                                                         
+<precio>65</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-218">                                                          
+<nombre> Butia Capitata</nombre>                                                
+<detalle pedido="3" nlinea="3">                                                 
+<cantidad>24</cantidad>                                                         
+<precio>25</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="26" nlinea="2">                                                
+<cantidad>14</cantidad>                                                         
+<precio>25</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-222">                                                          
+<nombre> Butia Capitata</nombre>                                                
+<detalle pedido="4" nlinea="1">                                                 
+<cantidad>21</cantidad>                                                         
+<precio>59</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-225">                                                          
+<nombre> Chamaerops Humilis</nombre>                                            
+<detalle pedido="35" nlinea="5">                                                
+<cantidad>72</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="50" nlinea="1">                                                
+<cantidad>12</cantidad>                                                         
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-226">                                                          
+<nombre> Chamaerops Humilis</nombre>                                            
+<detalle pedido="50" nlinea="2">                                                
+<cantidad>15</cantidad>                                                         
+<precio>38</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-227">                                                          
+<nombre> Chamaerops Humilis</nombre>                                            
+<detalle pedido="2" nlinea="1">                                                 
+<cantidad>67</cantidad>                                                         
+<precio>64</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="50" nlinea="3">                                                
+<cantidad>44</cantidad>                                                         
+<precio>64</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="55" nlinea="5">                                                
+<cantidad>6</cantidad>                                                          
+<precio>64</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="74" nlinea="2">                                                
+<cantidad>34</cantidad>                                                         
+<precio>64</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="82" nlinea="1">                                                
+<cantidad>34</cantidad>                                                         
+<precio>64</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="99" nlinea="1">                                                
+<cantidad>30</cantidad>                                                         
+<precio>64</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="105" nlinea="2">                                               
+<cantidad>21</cantidad>                                                         
+<precio>64</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-234">                                                          
+<nombre> Dracaena Drago</nombre>                                                
+<detalle pedido="10" nlinea="3">                                                
+<cantidad>5</cantidad>                                                          
+<precio>64</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="48" nlinea="1">                                                
+<cantidad>50</cantidad>                                                         
+<precio>64</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-236">                                                          
+<nombre> Jubaea Chilensis</nombre>                                              
+<detalle pedido="48" nlinea="2">                                                
+<cantidad>45</cantidad>                                                         
+<precio>49</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-237">                                                          
+<nombre> Livistonia Australis</nombre>                                          
+<detalle pedido="48" nlinea="3">                                                
+<cantidad>50</cantidad>                                                         
+<precio>19</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-240">                                                          
+<nombre> Phoenix Canariensis</nombre>                                           
+<detalle pedido="22" nlinea="1">                                                
+<cantidad>1</cantidad>                                                          
+<precio>6</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="79" nlinea="1">                                                
+<cantidad>50</cantidad>                                                         
+<precio>6</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="105" nlinea="1">                                               
+<cantidad>27</cantidad>                                                         
+<precio>6</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-241">                                                          
+<nombre> Phoenix Canariensis</nombre>                                           
+<detalle pedido="1" nlinea="4">                                                 
+<cantidad>15</cantidad>                                                         
+<precio>19</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="24" nlinea="3">                                                
+<cantidad>10</cantidad>                                                         
+<precio>20</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-243">                                                          
+<nombre> Rhaphis Humilis</nombre>                                               
+<detalle pedido="55" nlinea="4">                                                
+<cantidad>2</cantidad>                                                          
+<precio>64</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-247">                                                          
+<nombre> Trachycarpus Fortunei</nombre>                                         
+<detalle pedido="2" nlinea="4">                                                 
+<cantidad>5</cantidad>                                                          
+<precio>462</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="11" nlinea="1">                                                
+<cantidad>80</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+<detalle pedido="28" nlinea="1">                                                
+<cantidad>1</cantidad>                                                          
+<precio>462</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="33" nlinea="1">                                                
+<cantidad>150</cantidad>                                                        
+<precio>462</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="55" nlinea="3">                                                
+<cantidad>1</cantidad>                                                          
+<precio>462</precio>                                                            
+</detalle>                                                                      
+<detalle pedido="74" nlinea="3">                                                
+<cantidad>42</cantidad>                                                         
+<precio>8</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-249">                                                          
+<nombre> Washingtonia Robusta</nombre>                                          
+<detalle pedido="23" nlinea="1">                                                
+<cantidad>30</cantidad>                                                         
+<precio>5</precio>                                                              
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-250">                                                          
+<nombre> Yucca Jewel</nombre>                                                   
+<detalle pedido="56" nlinea="1">                                                
+<cantidad>3</cantidad>                                                          
+<precio>10</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+<producto id="OR-99">                                                           
+<nombre> Mimosa DEALBATA Gaulois Astier  </nombre>                              
+<detalle pedido="1" nlinea="5">                                                 
+<cantidad>23</cantidad>                                                         
+<precio>14</precio>                                                             
+</detalle>                                                                      
+<detalle pedido="36" nlinea="1">                                                
+<cantidad>15</cantidad>                                                         
+<precio>13</precio>                                                             
+</detalle>                                                                      
+</producto>                                                                     
+</gama>                                                                         
+</resumen>                                                                      

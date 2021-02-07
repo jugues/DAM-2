@@ -1,0 +1,10 @@
+C:\Users\Juli\source\repos\PruebaDragDrop\bin\Debug\PruebaDragDrop.exe.config
+C:\Users\Juli\source\repos\PruebaDragDrop\bin\Debug\PruebaDragDrop.exe
+C:\Users\Juli\source\repos\PruebaDragDrop\bin\Debug\PruebaDragDrop.pdb
+C:\Users\Juli\source\repos\PruebaDragDrop\obj\Debug\PruebaDragDrop.csprojAssemblyReference.cache
+C:\Users\Juli\source\repos\PruebaDragDrop\obj\Debug\PruebaDragDrop.FrmPrincipal.resources
+C:\Users\Juli\source\repos\PruebaDragDrop\obj\Debug\PruebaDragDrop.Properties.Resources.resources
+C:\Users\Juli\source\repos\PruebaDragDrop\obj\Debug\PruebaDragDrop.csproj.GenerateResource.cache
+C:\Users\Juli\source\repos\PruebaDragDrop\obj\Debug\PruebaDragDrop.csproj.CoreCompileInputs.cache
+C:\Users\Juli\source\repos\PruebaDragDrop\obj\Debug\PruebaDragDrop.exe
+C:\Users\Juli\source\repos\PruebaDragDrop\obj\Debug\PruebaDragDrop.pdb
